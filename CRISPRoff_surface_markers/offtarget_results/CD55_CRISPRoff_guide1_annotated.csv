@@ -1,11 +1,11 @@
-target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
-CD55_CRISPRoff_guide1,chr1:+207321701,CD55,1604,N/A,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr1:+53062237,PODN,127435,62,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr8:+37736706,ERLIN2,11160,96,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr6:+125956678,HINT3,135114,97,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr14:-77760955,SNW1,22938,105,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr1:-225653777,ENAH,55740,143,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr1:-27672353,IFI6,2537,165,Promoter,offtarget,NA
-CD55_CRISPRoff_guide1,chr1:+207321701,CD55,NA,1182,Promoter,proximal,1182
-CD55_CRISPRoff_guide1,chr1:+207321701,LINC02942,NA,82579,Promoter,proximal,82579
-CD55_CRISPRoff_guide1,chr1:+207321701,LOC124904498,NA,93536,Promoter,proximal,93536
+target_file          , locus          , gene_symbol , entrez_id, mismatch, gene_type, analysis_type, distance
+CD55_CRISPRoff_guide1, chr1:+207321701, CD55        , 1604     , N/A     , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr1:+53062237 , PODN        , 127435   , 62      , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr8:+37736706 , ERLIN2      , 11160    , 96      , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr6:+125956678, HINT3       , 135114   , 97      , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr14:-77760955, SNW1        , 22938    , 105     , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr1:-225653777, ENAH        , 55740    , 143     , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr1:-27672353 , IFI6        , 2537     , 165     , Promoter , offtarget    , NA
+CD55_CRISPRoff_guide1, chr1:+207321701, CD55        , NA       , 1182    , Promoter , proximal     , 1182
+CD55_CRISPRoff_guide1, chr1:+207321701, LINC02942   , NA       , 82579   , Promoter , proximal     , 82579
+CD55_CRISPRoff_guide1, chr1:+207321701, LOC124904498, NA       , 93536   , Promoter , proximal     , 93536

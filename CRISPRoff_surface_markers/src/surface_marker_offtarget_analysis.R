@@ -1,5 +1,4 @@
 # Surface Marker Off-target Analysis with Cross-reference and Heatmaps
-# Adapted from Co062 unified off-target analysis
 library(tidyverse)
 library(GenomicRanges)
 library(TxDb.Hsapiens.UCSC.hg38.knownGene)
