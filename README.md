@@ -47,7 +47,7 @@ Raw sequencing data and processed files are organized in respective subdirectori
 
 ## Contact
 For questions regarding this repository, please contact the corresponding authors:
-- justin.eyquem@ucsf.edu
-- brian.shy@ucsf.edu
-- alexander.marson@ucsf.edu
-- luke@arcinstitute.org
+- justin.eyquem [at] ucsf.edu
+- brian.shy [at] ucsf.edu
+- alexander.marson [at] ucsf.edu
+- luke [at] arcinstitute.org
