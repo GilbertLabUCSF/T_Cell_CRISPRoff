@@ -6,7 +6,7 @@ This repository contains the code and data analysis for the manuscript "Integrat
 ## Project Structure
 
 ### RNA-seq Analysis
-- **cas9_ko_vs_crispr_off_kd/**: RNA-seq data from multiple donors comparing CRISPRoff vs CRISPR-Cas9 knockout
+- **Cas9_KO_vs_CRISPRoff_KD/**: RNA-seq data from multiple donors comparing CRISPRoff vs CRISPR-Cas9 knockout
 - **CRISPRoff_KO_MED12/**: Comparison of MED12 silencing between CRISPRoff and CRISPR-Cas9
 - **CRISPRoff_surface_markers/**: Comparison of different Cas9 effector proteins on surface marker expression
 
