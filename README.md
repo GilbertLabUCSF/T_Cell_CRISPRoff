@@ -7,9 +7,7 @@ This repository contains the code and data analysis for the manuscript "Integrat
 
 ### RNA-seq Analysis
 - **Co065_multiple_donors/**: RNA-seq data from multiple donors comparing CRISPRoff vs CRISPR-Cas9 knockout
-- **Co062_multiple_guides/**: Analysis of different guide RNAs targeting biological targets
 - **CRISPRoff_KO_MED12/**: Comparison of MED12 silencing between CRISPRoff and CRISPR-Cas9
-- **CRISPRoff_biotargets_1/**: RNA-seq differential expression analysis for various biological targets
 - **CRISPRoff_surface_markers/**: Comparison of different Cas9 effector proteins on surface marker expression
 
 ### Methylation Analysis
@@ -31,7 +29,6 @@ Evaluates CRISPRoff performance across multiple therapeutically relevant genes i
 
 ### 3. Surface Marker Analysis
 Compares different Cas9 variants for targeting T cell surface markers:
-- CD29
 - CD55
 - CD81
 - CD151
