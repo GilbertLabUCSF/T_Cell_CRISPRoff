@@ -1,0 +1,144 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r, echo=F, warning=F}
+library(DSS)
+library(bsseq)
+library(ggplot2)
+library(stringr)
+```
+
+```{r}
+read_cov_file_for_DSS <- function(file_path) {
+    # Read the coverage file
+    meth_df <- read.table(file_path, header = FALSE, stringsAsFactors = FALSE)
+    
+    # Select necessary columns and rename
+    # Assuming columns are: chr, start, end, methylation percentage, meth, unmeth
+    meth_df <- meth_df[, c(1, 2, 5, 6)]
+    colnames(meth_df) <- c("chr", "pos", "meth", "unmeth")
+    
+    # Convert chromosome to a factor and position to numeric
+    meth_df$chr <- as.factor(meth_df$chr)
+    meth_df$pos <- as.numeric(meth_df$pos)
+    meth_df$meth <- as.numeric(meth_df$meth)
+    meth_df$unmeth <- as.numeric(meth_df$unmeth)
+
+    return(meth_df)
+}
+```
+
+
+```{r}
+CD81_donor1_rep2 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CD81_DONOR1_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+
+CD81_donor2_rep1 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CD81_DONOR2_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+CD81_donor2_rep2 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CD81_DONOR2_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+
+control_donor1_rep1 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CONTROL_DONOR1_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+control_donor1_rep2 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CONTROL_DONOR1_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+
+control_donor2_rep1 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CONTROL_DONOR2_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+control_donor2_rep2 <- read_cov_file_for_DSS("exp_1/methylation_coverage/CONTROL_DONOR2_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz")
+```
+
+```{r}
+data_frames <- list(
+    CD81_donor1_rep2, 
+    CD81_donor2_rep1, 
+    CD81_donor2_rep2, 
+    control_donor1_rep1, 
+    control_donor1_rep2, 
+    control_donor2_rep1, 
+    control_donor2_rep2
+)
+
+# Sample names
+sample_names <- c(
+    "CD81_donor1_rep2", 
+    "CD81_donor2_rep1", 
+    "CD81_donor2_rep2", 
+    "control_donor1_rep1", 
+    "control_donor1_rep2", 
+    "control_donor2_rep1", 
+    "control_donor2_rep2"
+)
+```
+
+```{r}
+# Create BSseq objects from the data frames
+# Prepare each data frame
+data_frames_prepared <- lapply(data_frames, function(df) {
+    df$N <- df$meth + df$unmeth  # Total coverage (methylated + unmethylated)
+    df$X <- df$meth              # Number of methylated reads
+    df <- df[, c("chr", "pos", "N", "X")]  # Select only required columns
+    df
+})
+
+# Combine BSseq objects into a single object
+combined_BSobj <- makeBSseqData(dat = data_frames_prepared, sampleNames = sample_names)
+```
+
+
+```{r}
+saveRDS(combined_BSobj, 'combined_BSobj_exp1.rds')
+```
+
+
+```{r}
+# Extract donor information
+donor <- factor(sub("^[^_]+_([^_]+)_rep[0-9]+$", "\\1", sample_names))
+
+
+# Extract replicate information
+replicate <- factor(sub(".*_", "", sample_names))
+
+# Extract treatment
+treatment <- factor(sample_names %>% str_split_fixed(.,'_',2) %>% .[,1])
+
+
+# Design matrix
+design <- model.matrix(~ 0 + donor + replicate + treatment)
+colnames(design) <- str_remove(colnames(design), 'donor')
+colnames(design) <- str_remove(colnames(design), 'replicate')
+colnames(design) <- str_remove(colnames(design), 'treatment')
+```
+
+
+```{r}
+metadata <- data.frame(donor=donor, replicate=replicate,treatment=treatment)
+
+# Fit the model
+DMLfit <- DMLfit.multiFactor(combined_BSobj, design = metadata, formula = ~ treatment + donor, smoothing = TRUE)
+
+# Perform DML test for the treatment term
+dmlTest <- DMLtest.multiFactor(DMLfit, term="treatment")
+
+# Call DMRs
+DMRs <- callDMR(dmlTest, p.threshold=1e-3)
+```
+
+
+```{r}
+# Remove rows with NA in pvals
+DMRs_filtered <- dmlTest[!is.na(dmlTest$pvals), ]
+
+# Transform the p-values
+DMRs_filtered$neg_log10_pval <- -log10(DMRs_filtered$pvals)
+
+# Creating a Manhattan plot
+ggplot(DMRs_filtered, aes(x = pos, y = neg_log10_pval, color = chr)) +
+  geom_point(alpha = 0.5) +
+  scale_color_hue(l = 40) +  # Different color for each chromosome
+  facet_wrap(~ chr, scales = 'free_x') +  # Separate panel for each chromosome
+  labs(x = "Genomic position", y = "-log10(p-value)") +
+  theme_bw() +
+  theme(
+    strip.background = element_blank(),
+    panel.spacing = unit(0.1, "lines"),
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
+

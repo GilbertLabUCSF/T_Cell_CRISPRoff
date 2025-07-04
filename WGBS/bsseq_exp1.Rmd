@@ -1,0 +1,60 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(bsseq)
+library(GenomicRanges)
+```
+
+```{r}
+file_paths <- list.files(path = "exp_1/methylation_coverage/", pattern = "*.cov.gz", full.names = TRUE)
+
+
+sample_ids <- c("CD81_donor1_rep2", "CD81_donor2_rep1", "CD81_donor2_rep2",
+                "control_donor1_rep1", "control_donor1_rep2", 
+                "control_donor2_rep1", "control_donor2_rep2")
+
+# Function to read Bismark coverage files
+readBismarkCov <- function(file_path) {
+  read.table(file_path, header = FALSE, col.names = c("chr", "start", "end", "methylation", "methylated", "unmethylated"))
+}
+
+# Read files
+cov_data <- lapply(file_paths, readBismarkCov)
+```
+
+```{r}
+# Assuming all your samples have the same coverage sites
+# Creating a GRanges object
+gr <- GRanges(seqnames = cov_data[[1]]$chr,
+              ranges = IRanges(start = cov_data[[1]]$start, end = cov_data[[1]]$end))
+
+# Combine methylated and unmethylated counts
+meth <- do.call(cbind, lapply(cov_data, function(x) x$methylated))
+unmeth <- do.call(cbind, lapply(cov_data, function(x) x$unmethylated))
+
+# Create a BSseq object
+bsseqObj <- BSseq(M = meth, Cov = unmeth + meth, gr = gr)
+
+```
+
+```{r}
+# Smooth the methylation data (this can be computationally intensive)
+bsseqObj <- BSmooth(bsseqObj)
+```
+
+
+```{r}
+# Assuming you have vectors 'donor' and 'replicate' as your covariates
+# design <- model.matrix(~ donor + replicate)
+
+# Perform differential methylation analysis
+diffMethResults <- calculateDiffMeth(methylationBaseObj, covariates = covariates)
+```
+
+```{r}
+DMRs <- unite(diffMethResults, destrand = FALSE)
+```
+

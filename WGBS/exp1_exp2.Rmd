@@ -1,0 +1,103 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(methylKit)
+library(stringr)
+
+dir_path <- 'results/bismark/methylation_calls/methylation_calls/'
+file.list <- list.files(dir_path)
+file_locations<- paste0(dir_path, file.list)
+file_locations <- file_locations[grepl('CpG', file_locations)] %>% as.list()
+
+# if(!all(file.exists(file_locations))) {
+#   stop("One or more files do not exist in the specified location.")
+# }
+
+FIXED = FALSE
+stopifnot(FIXED){
+  "FIX THE TREATMENTS"
+}
+
+treatments <- c(rep(0, 16), rep(1, 16))
+sample.ids <- as.matrix(str_split_fixed(file_locations, '_', 6))[,5] %>% as.list()
+
+methylation.data.list <- methylKit::methRead(location=file_locations,
+                                  sample.id = sample.ids,
+                                  dbdir='exp1_2',
+                                  assembly = "hg38", # your genome assembly
+                                  treatment = treatments,
+                                  context = "CpG", # the cytosine context you're interested in
+                                  pipeline = "bismarkCoverage")
+```
+
+```{r}
+# Filter for coverage and potentially other criteria
+filtered.myobj <- filterByCoverage(myobj, lo.count = 10, hi.count = 100, lo.perc = NULL, hi.perc = 99)
+
+# Normalize between samples
+normalized.myobj <- normalizeCoverage(filtered.myobj)
+
+```
+
+```{r}
+# Function to convert methylKit to DSS
+mkobj_to_dss <- function(mkobj) {
+  meth <- getData(mkobj)
+  chr <- as.character(meth$chr)
+  pos <- meth$start
+  nMeth <- meth$numCs
+  nUnmeth <- meth$numTs
+  sample.id <- mkobj@sample.id
+  dss.dat <- DSS::makeBSseqData(chr, pos, nMeth, nUnmeth)
+  names(dss.dat) <- sample.id
+  return(dss.dat)
+}
+
+# Convert methylKit object to DSS object
+BSobj <- mkobj_to_dss(normalized.myobj)
+```
+
+```{r}
+# Estimate dispersion
+BSobj <- estimateDispersion(BSobj, design = ~ group)
+
+# Test for differential methylation at each CpG site
+BSobj <- DMLtest(BSobj, group = c(rep(1, nControls), rep(2, nTreatments)))
+
+# Call differentially methylated loci
+DML <- callDML(BSobj, p.threshold = 0.01)
+
+# Test for DMRs
+DMR <- DMRtest(BSobj, V = BSobj$S, pair = c("control", "treatment"))
+
+# Call DMRs
+DMRs <- callDMR(DMR, delta = 0.1, p.threshold = 0.01, minlen = 1000, minCG = 3, dis.merge = 100, step.size = 100)
+```
+
+```{r}
+# Assuming 'DMRs' is the result from callDMR function in DSS and it contains p-values
+# Prepare the data for plotting
+manhattan_data <- with(DMRs, data.frame(chr = as.factor(chr), pos = start, pval = pvalue))
+
+# Transform the p-values to -log10 scale
+manhattan_data$neg_log10_pval <- -log10(manhattan_data$pval)
+
+# Create a Manhattan plot
+ggplot(manhattan_data, aes(x = pos, y = neg_log10_pval, colour = chr)) +
+  geom_point(alpha = 0.6, size = 1.0) + 
+  scale_colour_hue(l = 40) +  # Use a hue colour scale to distinguish chromosomes
+  facet_wrap(~ chr, scales = 'free_x') +  # Facet by chromosome for separate panels
+  labs(x = "Chromosome position", y = expression(-log[10](italic(p) - value))) + 
+  theme_minimal() +
+  theme(legend.position = "none",  # Remove legend for color
+        panel.spacing = unit(0.1, "lines"),  # Reduce space between facets
+        strip.background = element_blank())  # Remove background of facet labels
+
+# Print the plot
+ggsave("manhattan_plot.pdf", width = 12, height = 8)  # Save the plot to a file
+
+```
+

@@ -1,0 +1,210 @@
+library(methylKit)
+library(edgeR)
+library(readr)
+library(magrittr)
+library(tidyverse)
+library(data.table)
+library(ggplot2)
+library(GenomicRanges)
+library(AnnotationDbi)
+library(org.Hs.eg.db)
+
+
+
+
+readBismarkCoverage<-function( location,sample.id,assembly="unknown",treatment,
+                                    context="CpG",min.cov=10)
+{
+  if(length(location)>1){
+    stopifnot(length(location)==length(sample.id),
+              length(location)==length(treatment))
+  }
+  
+  result=list()
+  for(i in 1:length(location)){
+    df=fread(location[[i]],data.table=FALSE)
+  
+    # remove low coverage stuff
+    df=df[ (df[,5]+df[,6]) >= min.cov ,]
+    
+    # make the object (arrange columns of df), put it in a list
+    result[[i]]= new("methylRaw",data.frame(chr=df[,1],start=df[,2],end=df[,3],
+                               strand="*",coverage=(df[,5]+df[,6]),
+                               numCs=df[,5],numTs=df[,6]),
+        sample.id=sample.id[[i]],
+        assembly=assembly,context=context,resolution="base"
+        )
+  }
+  
+  if(length(result) == 1){
+    return(result[[1]])
+  }else{
+    
+    new("methylRawList",result,treatment=treatment)
+  }
+  
+}
+
+
+
+
+# List of file paths
+file_paths <- list(
+  "exp_1/methylation_coverage/CD81_DONOR1_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_1/methylation_coverage/CONTROL_DONOR1_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_1/methylation_coverage/CONTROL_DONOR1_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_1/methylation_coverage/CD81_DONOR2_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_1/methylation_coverage/CD81_DONOR2_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_1/methylation_coverage/CONTROL_DONOR2_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_1/methylation_coverage/CONTROL_DONOR2_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CD81DONOR3_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CD81DONOR3_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CONTROLDONOR3_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CONTROLDONOR3_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CD81DONOR4_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CD81DONOR4_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CONTROLDONOR4_REP1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+  "exp_3/methylation_coverage/CONTROLDONOR4_REP2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz"
+)
+
+sample_names <- c("CD81_donor1_rep2", "control_donor1_rep1", "control_donor1_rep2",
+                  "CD81_donor2_rep1", "CD81_donor2_rep2", "control_donor2_rep1", "control_donor2_rep2",
+                  "CD81_donor3_rep1", "CD81_donor3_rep2", "control_donor3_rep1", "control_donor3_rep2",
+                  "CD81_donor4_rep1", "CD81_donor4_rep2", "control_donor4_rep1", "control_donor4_rep2")
+
+# Treatment vector, assuming the first three are treated (1) and the rest are control (0)
+treatment_vector <- rep(c(1, 1, 0, 0),3)
+treatment_vector <- c(c(1, 0, 0),treatment_vector)
+
+# Read methylation data
+methylationDataList <- readBismarkCoverage(
+  location = file_paths,
+  sample.id = sample_names,
+  assembly = 'hg38',
+  context = 'CpG',
+  treatment = treatment_vector
+)
+
+
+
+filteredMethylationData <- filterByCoverage(methylationDataList, lo.count = 10, lo.perc = NULL, hi.count = 200, hi.perc = 99.9)
+methylationBaseObj <- methylKit::unite(filteredMethylationData, destrand=F)
+
+
+
+# Extract donor information
+donor <- factor(sub("^[^_]+_([^_]+)_rep[0-9]+$", "\\1", sample_names))
+
+
+# Extract replicate information
+replicate <- factor(sub(".*_", "", sample_names))
+
+# Extract treatment
+treatment <- factor(sample_names %>% str_split_fixed(.,'_',2) %>% .[,1])
+
+covariates = data.frame(donor=donor)
+
+
+
+
+# Assuming you have vectors 'donor' and 'replicate' as your covariates
+# design <- model.matrix(~ donor + replicate)
+
+# Tile the genome and then perform the analysis on these tiles
+tiledObj <- tileMethylCounts(methylationBaseObj, tile.size = 1000, step.size = 100, mc.cores=32)
+
+# Perform differential methylation analysis
+diffMethResults <- calculateDiffMeth(tiledObj, covariates = covariates, mc.cores=32, overdispersion = 'MN', adjust='BH')
+
+
+
+
+# Filter to keep only standard chromosomes
+standardChromosomes <- grepl("^chr[0-9XY]+$", diffMethResults$chr)
+filteredDiffMethDataFrame <- diffMethResults[standardChromosomes, ]
+
+# You might need to adjust p-values for multiple testing if not already done
+filteredDiffMethDataFrame$p.adjusted <- p.adjust(filteredDiffMethDataFrame$pvalue, method = "BH")
+
+# Transform the p-values
+filteredDiffMethDataFrame$neg_log10_qval <- -log10(filteredDiffMethDataFrame$p.adjusted)
+
+filteredDiffMethDataFrame <- data.frame(filteredDiffMethDataFrame)
+
+
+
+
+# Creating the Manhattan plot
+g<- ggplot(filteredDiffMethDataFrame, aes(x = start, y = neg_log10_qval, color = as.factor(chr))) +
+  geom_point(alpha = 0.5) +
+  scale_color_hue(l = 40) +  # Different color for each chromosome
+  labs(x = "Genomic Position", y = "-log10(Adjusted P-Value)", color = "Chromosome") +
+  theme_bw() +
+  facet_wrap(~chr, nrow=4)+
+  theme(
+    legend.position = "bottom",
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )+
+  ggtitle('CD81 CRISPR Off')
+
+
+
+#ggsave(g, 'results/exp3.pdf')
+filteredDiffMethDataFrame %>% arrange(qvalue) %>% write_csv('results/CD81_methylkit_1000_100.csv')
+# res_1000_1000 <- filteredDiffMethDataFrame %>% arrange(qvalue)
+# ggsave(g, 'results/exp3_CD81.png')
+
+
+
+# Extract the coverage and methylation percentage for each tile
+methylationData <- as.data.frame(methylKit::getData(tiledObj))
+
+#CD55
+specific_chr <- "chr11"
+specific_start <- 2377310 - 5000  
+specific_end <- 2397397 + 5000    
+methylationData <- methylationData %>%
+  filter(chr == specific_chr, start >= specific_start, end <= specific_end)
+
+
+# Calculate methylation percentage for each sample
+methylationData <- methylationData %>%
+  mutate(across(starts_with("numCs"),
+                ~ . / (. + get(gsub("numCs", "numTs", cur_column()))),
+                .names = "percentMeth_{.col}"))
+
+
+# Convert to long format for ggplot2
+longData <- methylationData %>%
+  pivot_longer(cols = starts_with("percentMeth"), names_to = "sample", values_to = "methylation") %>%
+  mutate(sample = gsub("percentMeth_", "", sample),
+         status = ifelse(methylation > 0.5, "Methylated", "Unmethylated"),
+         methylation = ifelse(status == "Methylated", methylation, -methylation), # Positive for methylated, negative for unmethylated
+         color = ifelse(status == "Methylated", "blue", "red")) %>%
+  dplyr::select(chr, start,end,sample, methylation,status,color)
+
+# Creating a vector of old sample names
+old_sample_names <- paste("numCs", 1:length(sample_names), sep="")
+
+# Creating the dictionary
+name_mapping <- setNames(sample_names, old_sample_names)
+longData <- longData %>%
+      mutate(sample = name_mapping[sample])
+
+# Plot as barplots
+g <- ggplot(longData, aes(x = start, y = methylation, fill = color)) +
+  geom_col() +
+  scale_fill_identity() +
+  facet_wrap(~sample, ncol = 1) +
+  theme_minimal() +
+  labs(x = "Genomic Position", y = "Methylation Percentage", fill = "Methylation Status") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.background = element_blank(),
+        strip.text.x = element_text(size = 8),
+        legend.position = "none")+
+  theme_classic()
+g
+
+ggsave('results/sample_methylation_CD81.png')
+
+
