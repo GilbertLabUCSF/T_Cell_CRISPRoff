@@ -7,10 +7,6 @@ P_VALUE_CUTOFF <- 0.05
 LOGFC_CUTOFF <- 1
 targets <- c("FAS", "PTPN2", "RC3H1", "SUV39H1", "RASA2", "MED12")
 
-cat("CO065 ENHANCED VOLCANO PLOTS\n")
-
-# STEP 1: Load RNA-seq results and find common significant genes
-
 # Function to safely load RNA-seq results
 load_rna_results <- function(target, exp_type) {
   file_patterns <- c(
@@ -55,8 +51,6 @@ for (target in targets) {
   
   cat("Target:", target, "- Common significant genes:", length(common_genes), "\n")
 }
-
-# STEP 2: Enhanced volcano plot function
 
 create_enhanced_volcano_plot <- function(df_results, contrast_id, target_gene,
                                        common_genes = NULL,
@@ -146,9 +140,6 @@ create_enhanced_volcano_plot <- function(df_results, contrast_id, target_gene,
   return(p)
 }
 
-# STEP 3: Generate enhanced volcano plots
-
-cat("\nGENERATING ENHANCED VOLCANO PLOTS\n")
 
 # Create output directory
 enhanced_output_dir <- "Co065_enhanced_volcano_plots"
@@ -186,9 +177,6 @@ for (target in targets) {
   }
 }
 
-# STEP 4: Create combined plots for each target
-
-cat("\nCREATING COMBINED VOLCANO PLOTS\n")
 
 for (target in targets) {
   kd_plot_name <- paste0(target, "_KD")
@@ -219,9 +207,6 @@ for (target in targets) {
   }
 }
 
-# STEP 5: Create summary plot of all targets
-
-cat("\nCREATING SUMMARY PLOTS\n")
 
 # Filter plots that exist
 existing_plots <- all_plots[names(all_plots) %in% names(all_rna_results)]
@@ -239,8 +224,6 @@ if (length(existing_plots) > 0) {
          width = 5 * ncols, height = 4 * nrows, dpi = 300)
   cat("Saved mega plot:", mega_file, "\n")
 }
-
-# STEP 6: Create summary statistics
 
 # Create summary of common genes per target
 summary_stats <- tibble(
@@ -261,13 +244,3 @@ summary_stats <- tibble(
 # Save summary
 summary_file <- file.path(enhanced_output_dir, "Co065_enhanced_volcano_summary.csv")
 write_csv(summary_stats, summary_file)
-
-cat("\nENHANCED VOLCANO PLOT ANALYSIS COMPLETE\n")
-cat("Results saved to:", enhanced_output_dir, "\n")
-cat("Summary statistics:\n")
-print(summary_stats)
-cat("\nKey features of enhanced volcano plots:\n")
-cat("- Labeled genes = genes significant in both KD and KO (colored red/blue by direction)\n")
-cat("- Orange points = target gene (plotted on top layer)\n")
-cat("- Red/blue labels = genes significant in both conditions\n")
-cat("- Subtitle shows count of common significant genes\n")

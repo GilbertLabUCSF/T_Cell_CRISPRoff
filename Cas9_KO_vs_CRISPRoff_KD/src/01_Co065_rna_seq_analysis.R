@@ -906,25 +906,3 @@ for (tg in targets) {
   ggsave(file.path("plots_dge", paste0(EXPT_NAME, "_", tg, "_KOvsKD_venn.png")),
          venn_plot, width = 5, height = 4)
 }
-
-# Final Summary
-cat("\n========================================\n")
-cat("Analysis for experiment", EXPT_NAME, "complete!\n")
-cat("========================================\n\n")
-cat("Output directories:\n")
-cat("- Results CSVs: 'results_dge/'\n")
-cat("- GO/KEGG/MSigDB results: 'results_go/'\n")
-cat("- Enrichment comparisons: 'results_enrichment_comparison/'\n")
-cat("- All plots: 'plots_dge/'\n")
-cat("\nKey analyses performed:\n")
-cat("- Standard differential expression (KO vs NTC, KD vs NTC)\n")
-cat("- Double differential analysis (KD vs KO)\n")
-cat("- GO, KEGG, and MSigDB Hallmark enrichment analysis\n")
-cat("- Cross-contrast enrichment comparisons\n")
-cat("- Identification of commonly enriched pathways\n")
-cat("- Comprehensive visualizations (volcano, correlation, heatmaps, venn)\n")
-cat("\nConfiguration used:\n")
-cat("- P-value cutoff:", P_VALUE_CUTOFF, "\n")
-cat("- LogFC cutoff:", LOGFC_CUTOFF, "\n")
-cat("- Min genes for enrichment:", MIN_GENES_FOR_ENRICHMENT, "\n")
-cat("\n========================================\n")

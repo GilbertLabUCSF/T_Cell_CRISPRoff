@@ -8,11 +8,6 @@ P_VALUE_CUTOFF <- 0.05
 LOGFC_CUTOFF <- 1
 targets <- c("FAS", "PTPN2", "RC3H1", "SUV39H1", "RASA2", "MED12")
 
-cat("CO065 ENHANCED OFF-TARGET ANALYSIS\n")
-
-# STEP 1: Load RNA-seq results to identify common significant genes
-
-cat("Loading RNA-seq results to identify genes significant in both KD and KO...\n")
 
 # Function to safely load RNA-seq results
 load_rna_results <- function(target, exp_type) {
@@ -76,8 +71,6 @@ for (target in targets) {
     cat("  Common genes:", paste(common_genes, collapse = ", "), "\n")
   }
 }
-
-# STEP 2: Enhanced heatmap function
 
 # Enhanced heatmap creation function that includes KD∩KO significance
 create_enhanced_heatmap <- function(target, exp_type, common_sig_genes = NULL) {
@@ -213,9 +206,6 @@ create_enhanced_heatmap <- function(target, exp_type, common_sig_genes = NULL) {
   return(ht)
 }
 
-# STEP 3: Generate enhanced heatmaps
-
-cat("\nGENERATING ENHANCED HEATMAPS\n")
 
 # Create output directory
 enhanced_output_dir <- "Co065_enhanced_heatmaps"
@@ -254,9 +244,6 @@ for (target in targets) {
   }
 }
 
-# STEP 4: Create summary report
-
-cat("\nCREATING SUMMARY REPORT\n")
 
 # Create summary of common significant genes
 summary_data <- tibble(
@@ -321,15 +308,3 @@ for (i in seq_len(nrow(summary_data))) {
 
 report_file <- file.path(enhanced_output_dir, "Co065_enhanced_analysis_report.md")
 writeLines(report_lines, report_file)
-
-cat("\nENHANCED ANALYSIS COMPLETE\n")
-cat("Results saved to:", enhanced_output_dir, "\n")
-cat("- Enhanced heatmaps with KD∩KO significance highlighting\n")
-cat("- Summary CSV:", summary_file, "\n")
-cat("- Detailed report:", report_file, "\n")
-cat("\nKey Legend:\n")
-cat("- Blue = target gene\n")
-cat("- Orange = predicted off target genes\n")
-cat("- Green = proximal genes\n")
-cat("- Purple = genes in both categories\n")
-cat("- * = significant (|logFC| > 1 & adj.P.Val < 0.05)\n")

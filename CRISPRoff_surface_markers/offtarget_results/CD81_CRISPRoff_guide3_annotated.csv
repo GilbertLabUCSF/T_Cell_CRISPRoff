@@ -1,0 +1,17 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+CD81_CRISPRoff_guide3,chr11:+2377140,CD81,975,N/A,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr11:-113314393,TTC12-DT,124902814,49,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr2:+219435045,SPEG,10290,91,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chrX:-78139962,TAF9B,51616,93,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr1:+230426750,LOC105373164,105373164,96,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr22:+25282926,IGLL3P,91353,102,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr19:-29093344,LOC124904682,124904682,109,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr19:-29093126,LOC124904682,124904682,136,Promoter,offtarget,NA
+CD81_CRISPRoff_guide3,chr11:+2377140,CD81-AS1,NA,147,Promoter,proximal,147
+CD81_CRISPRoff_guide3,chr11:+2377140,CD81,NA,1963,Promoter,proximal,1963
+CD81_CRISPRoff_guide3,chr11:+2377140,LOC105376520,NA,2738,Promoter,proximal,2738
+CD81_CRISPRoff_guide3,chr11:+2377140,TSSC4,NA,22348,Promoter,proximal,22348
+CD81_CRISPRoff_guide3,chr11:+2377140,LOC124902611,NA,42007,Promoter,proximal,42007
+CD81_CRISPRoff_guide3,chr11:+2377140,TRPM5,NA,66375,Promoter,proximal,66375
+CD81_CRISPRoff_guide3,chr11:+2377140,C11orf21,NA,75090,Promoter,proximal,75090
+CD81_CRISPRoff_guide3,chr11:+2377140,TSPAN32,NA,76143,Promoter,proximal,76143

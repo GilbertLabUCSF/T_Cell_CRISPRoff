@@ -1,0 +1,17 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+CD55_CRISPRoff_guide3,chr1:+207321712,CD55,1604,N/A,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr13:-110714208,CARS2,79587,51,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr1:+110339426,RBM15,64783,53,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr16:+79506293,LOC124903729,124903729,71,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr12:-122422526,CLIP1,6249,80,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr17:+65100679,LOC100507002,100507002,95,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr17:+65100679,RGS9,8787,95,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr2:+43226596,LINC01126,100129726,99,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr11:+67583628,GSTP1,2950,108,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr19:-57947539,ZNF256,10172,120,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr14:-59870772,RTN1,6252,122,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr15:-90102214,IDH2,3418,122,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr1:+205813477,PM20D1-AS1,284581,127,Promoter,offtarget,NA
+CD55_CRISPRoff_guide3,chr1:+207321712,CD55,NA,1193,Promoter,proximal,1193
+CD55_CRISPRoff_guide3,chr1:+207321712,LINC02942,NA,82590,Promoter,proximal,82590
+CD55_CRISPRoff_guide3,chr1:+207321712,LOC124904498,NA,93525,Promoter,proximal,93525

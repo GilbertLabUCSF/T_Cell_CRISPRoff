@@ -11,7 +11,7 @@ This repository contains the code and data analysis for the manuscript "Integrat
 - **CRISPRoff_surface_markers/**: Comparison of different Cas9 effector proteins on surface marker expression
 
 ### Methylation Analysis
-- **laine_methylation_recalc/**: Bisulfite sequencing analysis for methylation profiling
+- **WGBS/**: Bisulfite sequencing analysis for methylation profiling
 
 ## Key Analyses
 
