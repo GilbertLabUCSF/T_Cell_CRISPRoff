@@ -1,0 +1,10 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+LOC105371062,0,FALSE,offtarget,Promoter
+MID1IP1-AS1,0,FALSE,offtarget,Promoter
+LOC101929998,0,FALSE,offtarget,Promoter
+SHMT2,0.19599372966257533,FALSE,offtarget,Promoter
+SUV39H1,-4.627104326068617,TRUE,both,proximal_gene
+WAS,0.05764180852222722,FALSE,proximal,proximal_gene
+GLOD5,0,FALSE,proximal,proximal_gene
+WDR13,0.11835946385153928,FALSE,proximal,proximal_gene
+GATA1,0,FALSE,proximal,proximal_gene

@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+MED12_KD,MED12,KD,"MED12_CRISPRoff_guide1, MED12_CRISPRoff_guide2, MED12_CRISPRofff_guide3",19,0,11,7,1

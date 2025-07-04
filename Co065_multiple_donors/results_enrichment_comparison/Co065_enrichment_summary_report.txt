@@ -1,0 +1,50 @@
+# Enrichment Analysis Summary for Co065
+Generated on: 2025-06-26
+
+## Overview
+Total contrasts analyzed: 18
+
+## Common GO Terms Across Multiple Contrasts
+Found 199 GO terms enriched in multiple contrasts
+
+### Top 10 Most Common GO Terms:
+1. B cell proliferation (3 contrasts)
+2. chemotaxis (3 contrasts)
+3. taxis (3 contrasts)
+4. cell chemotaxis (3 contrasts)
+5. immune effector process (3 contrasts)
+6. leukocyte mediated immunity (3 contrasts)
+7. gliogenesis (3 contrasts)
+8. positive regulation of response to external stimulus (3 contrasts)
+9. G protein-coupled receptor signaling pathway (3 contrasts)
+10. hemostasis (3 contrasts)
+
+
+## Target-Specific Summary
+
+### FAS
+
+### PTPN2
+- KO significant genes: 0
+- KD significant genes: 33
+- KD vs KO differential genes: 16
+
+### RC3H1
+- KO significant genes: 25
+- KD significant genes: 9
+- KD vs KO differential genes: 1
+
+### SUV39H1
+- KO significant genes: 3
+- KD significant genes: 3
+- KD vs KO differential genes: 0
+
+### RASA2
+- KO significant genes: 232
+- KD significant genes: 220
+- KD vs KO differential genes: 14
+
+### MED12
+- KO significant genes: 160
+- KD significant genes: 817
+- KD vs KO differential genes: 58

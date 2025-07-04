@@ -1,0 +1,3 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Gene,3,SUV39H1_KO,SUV39H1
+both,Target,1,SUV39H1_KO,SUV39H1

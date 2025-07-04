@@ -1,0 +1,13 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+PTPN2_CRISPRoff_guide3,chr1:-183635793,ARPC5,10092,69,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr11:-72434395,CLPB,81570,77,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr9:+86947643,GAS1RR,100506834,80,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr17:+76452499,AANAT,15,83,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr2:+200811501,BZW1,9689,88,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr17:+48908241,UBE2Z,65264,95,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr7:-23471450,IGF2BP3,10643,100,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr19:-2096802,MOB3A,126308,104,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chrX:+153411460,ZFP92,139735,108,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr20:-59933792,SYCP2,10388,115,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr3:+32951756,CCR4,1233,116,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide3,chr18:+12884188,SEH1L,NA,62944,proximal_gene,proximal,62944

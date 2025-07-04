@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Promoter,11,MED12_KD,MED12
+proximal,proximal_gene,7,MED12_KD,MED12
+both,Promoter,1,MED12_KD,MED12

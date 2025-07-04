@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2,strandedness
+D1_Teff_Resting_MED12_KO,fastq/SRR30495327.fastq.gz,,auto
+D2_Teff_Resting_MED12_KO,fastq/SRR30495314.fastq.gz,,auto
+D1_Teff_Resting_AAVS1_1_KO,fastq/SRR30495328.fastq.gz,,auto
+D2_Teff_Resting_AAVS1_1_KO,fastq/SRR30495310.fastq.gz,,auto

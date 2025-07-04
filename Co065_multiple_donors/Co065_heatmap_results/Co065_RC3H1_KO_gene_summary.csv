@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Gene,4,RC3H1_KO,RC3H1
+both,Target,1,RC3H1_KO,RC3H1
+proximal,proximal_gene,1,RC3H1_KO,RC3H1

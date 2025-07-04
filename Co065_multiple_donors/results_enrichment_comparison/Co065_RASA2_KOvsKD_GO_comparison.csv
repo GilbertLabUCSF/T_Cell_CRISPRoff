@@ -1,0 +1,324 @@
+Category,GO_ID,Description,min_p.adjust
+Common,GO:0006935,chemotaxis,6.319697935602117e-7
+Common,GO:0042330,taxis,6.319697935602117e-7
+Common,GO:0060326,cell chemotaxis,3.3670545154797245e-6
+Common,GO:0002252,immune effector process,2.555716673000607e-5
+Common,GO:0002443,leukocyte mediated immunity,2.2898361915780436e-4
+Common,GO:0042063,gliogenesis,3.29989770829557e-4
+Common,GO:0032103,positive regulation of response to external stimulus,3.29989770829557e-4
+Common,GO:0007186,G protein-coupled receptor signaling pathway,4.540880255846512e-4
+Common,GO:0007599,hemostasis,6.373902797785144e-4
+Common,GO:0002444,myeloid leukocyte mediated immunity,7.479757856568141e-4
+Common,GO:0045055,regulated exocytosis,8.6231526600874e-4
+Common,GO:0050878,regulation of body fluid levels,4.3356061413562494e-4
+Common,GO:0050900,leukocyte migration,0.0010152801762090718
+Common,GO:0061061,muscle structure development,0.0011262077686581952
+Common,GO:0035924,cellular response to vascular endothelial growth factor stimulus,0.0011262077686581952
+Common,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,6.03550520119907e-4
+Common,GO:0043299,leukocyte degranulation,0.0011262077686581952
+Common,GO:0099536,synaptic signaling,0.0012035057129629607
+Common,GO:0001944,vasculature development,0.0013610904961999532
+Common,GO:0007596,blood coagulation,0.0014120149579204496
+Common,GO:0050817,coagulation,0.0014641162664951269
+Common,GO:0050920,regulation of chemotaxis,0.0015766460996798014
+Common,GO:0097529,myeloid leukocyte migration,0.0016323327387244356
+Common,GO:0001568,blood vessel development,0.0016323327387244356
+Common,GO:0030595,leukocyte chemotaxis,0.001644189642066111
+Common,GO:0050921,positive regulation of chemotaxis,0.001644189642066111
+Common,GO:0070098,chemokine-mediated signaling pathway,0.0018534942066937643
+Common,GO:0006887,exocytosis,0.0019867807472952847
+Common,GO:0002275,myeloid cell activation involved in immune response,0.0019867807472952847
+Common,GO:0014910,regulation of smooth muscle cell migration,0.0019867807472952847
+Common,GO:0048514,blood vessel morphogenesis,0.002570357612125033
+Common,GO:0036230,granulocyte activation,0.0026960966233002264
+Common,GO:0014909,smooth muscle cell migration,0.002974850770312138
+Common,GO:0009611,response to wounding,6.237405608123432e-4
+Common,GO:0030195,negative regulation of blood coagulation,5.859281809119289e-4
+Common,GO:0035767,endothelial cell chemotaxis,0.002974850770312138
+Common,GO:0071800,podosome assembly,0.002974850770312138
+Common,GO:1900047,negative regulation of hemostasis,5.859281809119289e-4
+Common,GO:1990868,response to chemokine,0.0032069188708642982
+Common,GO:1990869,cellular response to chemokine,0.0032069188708642982
+Common,GO:0002274,myeloid leukocyte activation,0.0032069188708642982
+Common,GO:0007268,chemical synaptic transmission,0.0016428814102766537
+Common,GO:0098916,anterograde trans-synaptic signaling,0.0016428814102766537
+Common,GO:0099537,trans-synaptic signaling,0.0017265465027950845
+Common,GO:0007519,skeletal muscle tissue development,0.003525144474042394
+Common,GO:0035239,tube morphogenesis,0.0037829036371109653
+Common,GO:0050819,negative regulation of coagulation,6.237405608123432e-4
+Common,GO:0060538,skeletal muscle organ development,0.004275464607145591
+Common,GO:0009617,response to bacterium,0.004542532313159781
+Common,GO:0038084,vascular endothelial growth factor signaling pathway,0.004542532313159781
+Common,GO:0018108,peptidyl-tyrosine phosphorylation,0.004542532313159781
+Common,GO:0043491,phosphatidylinositol 3-kinase/protein kinase B signal transduction,6.855247134923227e-4
+Common,GO:0002448,mast cell mediated immunity,0.004797193175318497
+Common,GO:0018212,peptidyl-tyrosine modification,0.004797193175318497
+Common,GO:0051896,regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.001906618378247783
+Common,GO:0014812,muscle cell migration,0.004904043002701978
+Common,GO:0070848,response to growth factor,0.0013942813345372367
+Common,GO:0043408,regulation of MAPK cascade,0.007227954726335561
+Common,GO:0032940,secretion by cell,0.007616921128646095
+Common,GO:0048008,platelet-derived growth factor receptor signaling pathway,0.00804490073648486
+Common,GO:0030335,positive regulation of cell migration,0.009651922328413248
+Common,GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.002937383007348616
+Common,GO:0043065,positive regulation of apoptotic process,0.010135500427756123
+Common,GO:0043410,positive regulation of MAPK cascade,0.011280736540788998
+Common,GO:0009887,animal organ morphogenesis,0.0016242917883024662
+Common,GO:2000147,positive regulation of cell motility,0.012077903471243594
+Common,GO:0010755,regulation of plasminogen activation,0.012194960937307228
+Common,GO:0043068,positive regulation of programmed cell death,0.006613757010325554
+Common,GO:0040017,positive regulation of locomotion,0.013011234570124345
+Common,GO:0030193,regulation of blood coagulation,0.0023484100486248676
+Common,GO:1900046,regulation of hemostasis,0.0023484100486248676
+Common,GO:0070374,positive regulation of ERK1 and ERK2 cascade,0.013566925532010178
+Common,GO:0000165,MAPK cascade,0.013703101598263658
+Common,GO:0007517,muscle organ development,0.01498187544530338
+Common,GO:0061045,negative regulation of wound healing,6.237405608123432e-4
+Common,GO:0002688,regulation of leukocyte chemotaxis,0.0168044631797575
+Common,GO:0031639,plasminogen activation,0.0168044631797575
+Common,GO:0071363,cellular response to growth factor stimulus,0.004173753263834533
+Common,GO:0050818,regulation of coagulation,0.0035015089576820183
+Common,GO:0042060,wound healing,0.007977514963038642
+Common,GO:0045921,positive regulation of exocytosis,0.01821470240319621
+Common,GO:0061437,renal system vasculature development,0.002550052554586853
+Common,GO:0061440,kidney vasculature development,0.002550052554586853
+Common,GO:0002685,regulation of leukocyte migration,0.002550052554586853
+Common,GO:1903034,regulation of response to wounding,6.237405608123432e-4
+Common,GO:0043303,mast cell degranulation,0.021923132380082207
+Common,GO:0002279,mast cell activation involved in immune response,0.02435413984905952
+Common,GO:0002690,positive regulation of leukocyte chemotaxis,0.024857469481572875
+Common,GO:0061041,regulation of wound healing,0.0018572781087070154
+Common,GO:0001656,metanephros development,0.028682528731721193
+Common,GO:0008045,motor neuron axon guidance,0.029779870517218438
+Common,GO:0035272,exocrine system development,0.004509098132524969
+Common,GO:0070372,regulation of ERK1 and ERK2 cascade,0.032873023600248366
+Common,GO:1903035,negative regulation of response to wounding,5.139539294128538e-4
+Common,GO:0030855,epithelial cell differentiation,0.038212281255672303
+Common,GO:0019932,second-messenger-mediated signaling,0.0019894431027380486
+Common,GO:0050804,modulation of chemical synaptic transmission,0.01906986466647851
+Common,GO:0099177,regulation of trans-synaptic signaling,0.01928197474678592
+Common,GO:0048483,autonomic nervous system development,0.04159428871584762
+Common,GO:0007422,peripheral nervous system development,0.042206973771793936
+Common,GO:0045576,mast cell activation,0.042206973771793936
+KO_only,GO:0002366,leukocyte activation involved in immune response,3.29989770829557e-4
+KO_only,GO:0002263,cell activation involved in immune response,3.29989770829557e-4
+KO_only,GO:0035914,skeletal muscle cell differentiation,6.928167101094497e-4
+KO_only,GO:0050865,regulation of cell activation,6.928167101094497e-4
+KO_only,GO:0043300,regulation of leukocyte degranulation,0.0011262077686581952
+KO_only,GO:0006954,inflammatory response,0.0013610904961999532
+KO_only,GO:0002699,positive regulation of immune effector process,0.0013709882453818553
+KO_only,GO:0030217,T cell differentiation,0.0015766460996798014
+KO_only,GO:0002886,regulation of myeloid leukocyte mediated immunity,0.001644189642066111
+KO_only,GO:0042110,T cell activation,0.001644189642066111
+KO_only,GO:1903131,mononuclear cell differentiation,0.0017922488369034703
+KO_only,GO:0050867,positive regulation of cell activation,0.0018534942066937643
+KO_only,GO:0030098,lymphocyte differentiation,0.0018534942066937643
+KO_only,GO:0002521,leukocyte differentiation,0.002150364878553719
+KO_only,GO:0002703,regulation of leukocyte mediated immunity,0.002974850770312138
+KO_only,GO:0060627,regulation of vesicle-mediated transport,0.002974850770312138
+KO_only,GO:0002694,regulation of leukocyte activation,0.002974850770312138
+KO_only,GO:0017157,regulation of exocytosis,0.003047686057684051
+KO_only,GO:0006909,phagocytosis,0.0032902917011447927
+KO_only,GO:0002696,positive regulation of leukocyte activation,0.0032902917011447927
+KO_only,GO:0032496,response to lipopolysaccharide,0.0037382263695922664
+KO_only,GO:0002697,regulation of immune effector process,0.0037415134626969278
+KO_only,GO:0006937,regulation of muscle contraction,0.003924363122112179
+KO_only,GO:0043302,positive regulation of leukocyte degranulation,0.003924363122112179
+KO_only,GO:0001525,angiogenesis,0.00445449322130499
+KO_only,GO:1903305,regulation of regulated secretory pathway,0.00445449322130499
+KO_only,GO:0002237,response to molecule of bacterial origin,0.004542532313159781
+KO_only,GO:0001819,positive regulation of cytokine production,0.004797193175318497
+KO_only,GO:0051046,regulation of secretion,0.004904043002701978
+KO_only,GO:0001667,ameboidal-type cell migration,0.005005127213063177
+KO_only,GO:0050730,regulation of peptidyl-tyrosine phosphorylation,0.005831611743984201
+KO_only,GO:0030858,positive regulation of epithelial cell differentiation,0.005831611743984201
+KO_only,GO:0008544,epidermis development,0.006532861786023249
+KO_only,GO:0019221,cytokine-mediated signaling pathway,0.0069511798240046805
+KO_only,GO:0044057,regulation of system process,0.007227954726335561
+KO_only,GO:0042119,neutrophil activation,0.008410500386769455
+KO_only,GO:0090257,regulation of muscle system process,0.009607996885995495
+KO_only,GO:0036336,dendritic cell migration,0.009651922328413248
+KO_only,GO:0045682,regulation of epidermis development,0.009651922328413248
+KO_only,GO:0042492,gamma-delta T cell differentiation,0.009974767675742471
+KO_only,GO:0070663,regulation of leukocyte proliferation,0.009974767675742471
+KO_only,GO:0014911,positive regulation of smooth muscle cell migration,0.010910548527826783
+KO_only,GO:0001906,cell killing,0.011079764458085018
+KO_only,GO:1903317,regulation of protein maturation,0.011280736540788998
+KO_only,GO:0070665,positive regulation of leukocyte proliferation,0.011398721443661445
+KO_only,GO:0051249,regulation of lymphocyte activation,0.011715089706976907
+KO_only,GO:0035791,platelet-derived growth factor receptor-beta signaling pathway,0.012194960937307228
+KO_only,GO:0006897,endocytosis,0.01264502237835242
+KO_only,GO:0001912,positive regulation of leukocyte mediated cytotoxicity,0.012998539860093881
+KO_only,GO:1903307,positive regulation of regulated secretory pathway,0.013011234570124345
+KO_only,GO:0001938,positive regulation of endothelial cell proliferation,0.013587960746132704
+KO_only,GO:0010631,epithelial cell migration,0.013698732674887925
+KO_only,GO:0090132,epithelium migration,0.013698732674887925
+KO_only,GO:0090130,tissue migration,0.01404207390291113
+KO_only,GO:0072677,eosinophil migration,0.014321430235993606
+KO_only,GO:0002285,lymphocyte activation involved in immune response,0.0154192125516355
+KO_only,GO:0031341,regulation of cell killing,0.0154192125516355
+KO_only,GO:0031343,positive regulation of cell killing,0.015437523028338502
+KO_only,GO:0050670,regulation of lymphocyte proliferation,0.015601227720771733
+KO_only,GO:0006968,cellular defense response,0.015601227720771733
+KO_only,GO:0030219,megakaryocyte differentiation,0.016485191686619438
+KO_only,GO:1903530,regulation of secretion by cell,0.0168044631797575
+KO_only,GO:0002705,positive regulation of leukocyte mediated immunity,0.0168044631797575
+KO_only,GO:0032944,regulation of mononuclear cell proliferation,0.0168044631797575
+KO_only,GO:0010001,glial cell differentiation,0.0168044631797575
+KO_only,GO:0044344,cellular response to fibroblast growth factor stimulus,0.0168044631797575
+KO_only,GO:0045859,regulation of protein kinase activity,0.0168044631797575
+KO_only,GO:0097530,granulocyte migration,0.019338378031140028
+KO_only,GO:0045618,positive regulation of keratinocyte differentiation,0.019388245286513395
+KO_only,GO:1903975,regulation of glial cell migration,0.019388245286513395
+KO_only,GO:0030168,platelet activation,0.02002073182842169
+KO_only,GO:0050671,positive regulation of lymphocyte proliferation,0.020218559596097252
+KO_only,GO:0002449,lymphocyte mediated immunity,0.020226504688953807
+KO_only,GO:0030593,neutrophil chemotaxis,0.02034486286092108
+KO_only,GO:0071774,response to fibroblast growth factor,0.02187439849557724
+KO_only,GO:0032946,positive regulation of mononuclear cell proliferation,0.02288295169655659
+KO_only,GO:0001934,positive regulation of protein phosphorylation,0.02484349335336029
+KO_only,GO:0002065,columnar/cuboidal epithelial cell differentiation,0.024857469481572875
+KO_only,GO:0002223,stimulatory C-type lectin receptor signaling pathway,0.026411821457849014
+KO_only,GO:1990840,response to lectin,0.026411821457849014
+KO_only,GO:1990858,cellular response to lectin,0.026411821457849014
+KO_only,GO:0051251,positive regulation of lymphocyte activation,0.02672262727102413
+KO_only,GO:0019730,antimicrobial humoral response,0.028682528731721193
+KO_only,GO:0060491,regulation of cell projection assembly,0.029216405997215863
+KO_only,GO:0030856,regulation of epithelial cell differentiation,0.029216405997215863
+KO_only,GO:0002407,dendritic cell chemotaxis,0.029779870517218438
+KO_only,GO:0060563,neuroepithelial cell differentiation,0.029779870517218438
+KO_only,GO:1903319,positive regulation of protein maturation,0.029779870517218438
+KO_only,GO:0045604,regulation of epidermal cell differentiation,0.030483207037344758
+KO_only,GO:0001936,regulation of endothelial cell proliferation,0.03088743681789591
+KO_only,GO:0071621,granulocyte chemotaxis,0.032873023600248366
+KO_only,GO:0006959,humoral immune response,0.032873023600248366
+KO_only,GO:0008347,glial cell migration,0.032873023600248366
+KO_only,GO:0002440,production of molecular mediator of immune response,0.03351726562243764
+KO_only,GO:0045606,positive regulation of epidermal cell differentiation,0.03383853143913877
+KO_only,GO:0006334,nucleosome assembly,0.03581260453725434
+KO_only,GO:0001666,response to hypoxia,0.03581260453725434
+KO_only,GO:0043549,regulation of kinase activity,0.036140821061134976
+KO_only,GO:0001909,leukocyte mediated cytotoxicity,0.03731493943109854
+KO_only,GO:0070661,leukocyte proliferation,0.03796054371834999
+KO_only,GO:0045742,positive regulation of epidermal growth factor receptor signaling pathway,0.03796054371834999
+KO_only,GO:0001910,regulation of leukocyte mediated cytotoxicity,0.03796054371834999
+KO_only,GO:0042100,B cell proliferation,0.03796054371834999
+KO_only,GO:0050731,positive regulation of peptidyl-tyrosine phosphorylation,0.038212281255672303
+KO_only,GO:0042327,positive regulation of phosphorylation,0.03942475179392386
+KO_only,GO:0051338,regulation of transferase activity,0.03942475179392386
+KO_only,GO:0038093,Fc receptor signaling pathway,0.040047228180479365
+KO_only,GO:0097191,extrinsic apoptotic signaling pathway,0.04159428871584762
+KO_only,GO:0055094,response to lipoprotein particle,0.04159428871584762
+KO_only,GO:0071404,cellular response to low-density lipoprotein particle stimulus,0.04159428871584762
+KO_only,GO:0070613,regulation of protein processing,0.042206973771793936
+KO_only,GO:1990266,neutrophil migration,0.04272075805933036
+KO_only,GO:0050863,regulation of T cell activation,0.04272075805933036
+KO_only,GO:0071900,regulation of protein serine/threonine kinase activity,0.04309291217181757
+KO_only,GO:0045785,positive regulation of cell adhesion,0.04309291217181757
+KO_only,GO:0071396,cellular response to lipid,0.04442817822963786
+KO_only,GO:0050808,synapse organization,0.04448083763822619
+KO_only,GO:0045684,positive regulation of epidermis development,0.04538764660044471
+KO_only,GO:0046629,gamma-delta T cell activation,0.04538764660044471
+KO_only,GO:1901186,positive regulation of ERBB signaling pathway,0.04538764660044471
+KO_only,GO:0036293,response to decreased oxygen levels,0.04921688685106451
+KO_only,GO:1902414,protein localization to cell junction,0.04951826823611521
+KO_only,GO:0070371,ERK1 and ERK2 cascade,0.04951826823611521
+KD_only,GO:0061564,axon development,4.150269959648919e-4
+KD_only,GO:0007409,axonogenesis,4.150269959648919e-4
+KD_only,GO:0007411,axon guidance,6.237405608123432e-4
+KD_only,GO:0097485,neuron projection guidance,6.237405608123432e-4
+KD_only,GO:0021675,nerve development,6.237405608123432e-4
+KD_only,GO:0048812,neuron projection morphogenesis,8.279157029653196e-4
+KD_only,GO:0048667,cell morphogenesis involved in neuron differentiation,0.0010152801762090718
+KD_only,GO:0032989,cellular component morphogenesis,0.0010409146371491908
+KD_only,GO:0120039,plasma membrane bounded cell projection morphogenesis,0.0011214763520295944
+KD_only,GO:0048858,cell projection morphogenesis,0.0011214763520295944
+KD_only,GO:0032990,cell part morphogenesis,0.0016428814102766537
+KD_only,GO:0007610,behavior,0.0016927529487577723
+KD_only,GO:0050982,detection of mechanical stimulus,0.0018572781087070154
+KD_only,GO:0001822,kidney development,0.0019894431027380486
+KD_only,GO:0072001,renal system development,0.0023053814076037325
+KD_only,GO:0048568,embryonic organ development,0.00247534850336187
+KD_only,GO:0060384,innervation,0.003296277618684409
+KD_only,GO:0008306,associative learning,0.0035015089576820183
+KD_only,GO:0072006,nephron development,0.0035015089576820183
+KD_only,GO:0051606,detection of stimulus,0.0038005558584323007
+KD_only,GO:0090279,regulation of calcium ion import,0.0038005558584323007
+KD_only,GO:0009581,detection of external stimulus,0.0052273095890329095
+KD_only,GO:0007204,positive regulation of cytosolic calcium ion concentration,0.005289607200277172
+KD_only,GO:0009582,detection of abiotic stimulus,0.005447034979706421
+KD_only,GO:0031638,zymogen activation,0.005457500318428919
+KD_only,GO:0050890,cognition,0.006524156451139128
+KD_only,GO:0008038,neuron recognition,0.0071116896082994725
+KD_only,GO:0050906,detection of stimulus involved in sensory perception,0.007600628499534064
+KD_only,GO:0061138,morphogenesis of a branching epithelium,0.00786727397073546
+KD_only,GO:0009612,response to mechanical stimulus,0.010865139351897403
+KD_only,GO:0043523,regulation of neuron apoptotic process,0.010865139351897403
+KD_only,GO:0008037,cell recognition,0.010917534742733607
+KD_only,GO:0007413,axonal fasciculation,0.010970280621483912
+KD_only,GO:0106030,neuron projection fasciculation,0.010970280621483912
+KD_only,GO:0040014,regulation of multicellular organism growth,0.011434120336605638
+KD_only,GO:0001763,morphogenesis of a branching structure,0.012437092732678717
+KD_only,GO:0051928,positive regulation of calcium ion transport,0.012745264819407154
+KD_only,GO:0072073,kidney epithelium development,0.012745264819407154
+KD_only,GO:0021536,diencephalon development,0.013221483600151736
+KD_only,GO:0070509,calcium ion import,0.013221483600151736
+KD_only,GO:0019722,calcium-mediated signaling,0.0150582293837214
+KD_only,GO:0032102,negative regulation of response to external stimulus,0.01535530444413499
+KD_only,GO:0021854,hypothalamus development,0.015735860920782673
+KD_only,GO:0048532,anatomical structure arrangement,0.015735860920782673
+KD_only,GO:0097067,cellular response to thyroid hormone stimulus,0.015735860920782673
+KD_only,GO:0048589,developmental growth,0.016121978068752183
+KD_only,GO:0010623,programmed cell death involved in cell development,0.01906986466647851
+KD_only,GO:0021602,cranial nerve morphogenesis,0.01906986466647851
+KD_only,GO:0021545,cranial nerve development,0.01928197474678592
+KD_only,GO:0035282,segmentation,0.01928197474678592
+KD_only,GO:0060840,artery development,0.01928197474678592
+KD_only,GO:0048167,regulation of synaptic plasticity,0.02028621296294495
+KD_only,GO:0072009,nephron epithelium development,0.02028621296294495
+KD_only,GO:0002548,monocyte chemotaxis,0.02028621296294495
+KD_only,GO:0032835,glomerulus development,0.02028621296294495
+KD_only,GO:0048168,regulation of neuronal synaptic plasticity,0.02028621296294495
+KD_only,GO:0048844,artery morphogenesis,0.02028621296294495
+KD_only,GO:0007612,learning,0.021069999874120653
+KD_only,GO:0007431,salivary gland development,0.02121987578402404
+KD_only,GO:0007435,salivary gland morphogenesis,0.02121987578402404
+KD_only,GO:0072210,metanephric nephron development,0.02121987578402404
+KD_only,GO:0007611,learning or memory,0.022172761312399755
+KD_only,GO:0033627,cell adhesion mediated by integrin,0.02266604806803716
+KD_only,GO:0007389,pattern specification process,0.02390723376512702
+KD_only,GO:0032516,positive regulation of phosphoprotein phosphatase activity,0.024794857341885353
+KD_only,GO:0048729,tissue morphogenesis,0.027155995704064944
+KD_only,GO:0001892,embryonic placenta development,0.027155995704064944
+KD_only,GO:0031344,regulation of cell projection organization,0.02837604701625442
+KD_only,GO:0051402,neuron apoptotic process,0.02858905007102957
+KD_only,GO:0050877,nervous system process,0.030797417059829166
+KD_only,GO:0048638,regulation of developmental growth,0.03140009264863161
+KD_only,GO:0014013,regulation of gliogenesis,0.03279441821796188
+KD_only,GO:0050974,detection of mechanical stimulus involved in sensory perception,0.033280525356693375
+KD_only,GO:0010975,regulation of neuron projection development,0.03355773972204569
+KD_only,GO:0021761,limbic system development,0.03425549368643435
+KD_only,GO:0001503,ossification,0.036288257362454814
+KD_only,GO:0060537,muscle tissue development,0.036288257362454814
+KD_only,GO:0043269,regulation of monoatomic ion transport,0.03634382829318228
+KD_only,GO:0006898,receptor-mediated endocytosis,0.03672528993485992
+KD_only,GO:0007423,sensory organ development,0.03672528993485992
+KD_only,GO:0051336,regulation of hydrolase activity,0.03672528993485992
+KD_only,GO:0097066,response to thyroid hormone,0.03672528993485992
+KD_only,GO:0098742,cell-cell adhesion via plasma-membrane adhesion molecules,0.036990590191874215
+KD_only,GO:0003002,regionalization,0.037678895442844154
+KD_only,GO:0001890,placenta development,0.03866717882525957
+KD_only,GO:0071674,mononuclear cell migration,0.03963813233405733
+KD_only,GO:0035265,organ growth,0.04016601731028305
+KD_only,GO:0002040,sprouting angiogenesis,0.04101267842538847
+KD_only,GO:0002009,morphogenesis of an epithelium,0.0455313296208421
+KD_only,GO:0034110,regulation of homotypic cell-cell adhesion,0.0455313296208421
+KD_only,GO:0048732,gland development,0.0455313296208421
+KD_only,GO:0120035,regulation of plasma membrane bounded cell projection organization,0.0455313296208421
+KD_only,GO:0001657,ureteric bud development,0.0455313296208421
+KD_only,GO:0007156,homophilic cell adhesion via plasma membrane adhesion molecules,0.0455313296208421
+KD_only,GO:0043525,positive regulation of neuron apoptotic process,0.0455313296208421
+KD_only,GO:0072080,nephron tubule development,0.048736050572043874
+KD_only,GO:0072163,mesonephric epithelium development,0.048736050572043874
+KD_only,GO:0072164,mesonephric tubule development,0.048736050572043874
+KD_only,GO:0010922,positive regulation of phosphatase activity,0.049509886431808044

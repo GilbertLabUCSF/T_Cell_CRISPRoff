@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Promoter,4,SUV39H1_KD,SUV39H1
+proximal,proximal_gene,4,SUV39H1_KD,SUV39H1
+both,proximal_gene,1,SUV39H1_KD,SUV39H1

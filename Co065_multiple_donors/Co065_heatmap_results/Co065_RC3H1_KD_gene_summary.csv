@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Promoter,8,RC3H1_KD,RC3H1
+both,Promoter,1,RC3H1_KD,RC3H1
+proximal,proximal_gene,1,RC3H1_KD,RC3H1

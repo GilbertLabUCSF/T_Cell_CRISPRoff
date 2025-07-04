@@ -1,0 +1,10 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+SUV39H1_CRISPRoff_guide2,chr16:-4184195,LOC105371062,105371062,54,Promoter,offtarget,NA
+SUV39H1_CRISPRoff_guide2,chrX:-38803746,MID1IP1-AS1,100874211,70,Promoter,offtarget,NA
+SUV39H1_CRISPRoff_guide2,chr7:-154063724,LOC101929998,101929998,82,Promoter,offtarget,NA
+SUV39H1_CRISPRoff_guide2,chr12:+57228985,SHMT2,6472,89,Promoter,offtarget,NA
+SUV39H1_CRISPRoff_guide2,chrX:+48696765,SUV39H1,NA,0,proximal_gene,proximal,0
+SUV39H1_CRISPRoff_guide2,chrX:+48696765,WAS,NA,5333,proximal_gene,proximal,5333
+SUV39H1_CRISPRoff_guide2,chrX:+48696765,GLOD5,NA,64981,proximal_gene,proximal,64981
+SUV39H1_CRISPRoff_guide2,chrX:+48696765,WDR13,NA,87895,proximal_gene,proximal,87895
+SUV39H1_CRISPRoff_guide2,chrX:+48696765,GATA1,NA,89774,proximal_gene,proximal,89774

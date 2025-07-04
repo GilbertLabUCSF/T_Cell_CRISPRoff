@@ -1,0 +1,6 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+DPYSL4,0,FALSE,offtarget,Gene
+LOC105379230,0,FALSE,offtarget,Gene
+PTPN14,-0.8967017887414699,FALSE,offtarget,Gene
+PTPN2,-0.5010293602906142,FALSE,both,Target
+PSMG2,0.21373461799044335,FALSE,proximal,proximal_gene

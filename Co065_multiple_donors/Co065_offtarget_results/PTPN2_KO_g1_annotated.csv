@@ -1,0 +1,6 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+PTPN2_KO_g1,chr18:+12817207,PTPN2,NA,N/A,Gene,offtarget,NA
+PTPN2_KO_g1,chr10:-132203764,DPYSL4,NA,57,Gene,offtarget,NA
+PTPN2_KO_g1,chr8:-9376446,LOC105379230,NA,87,Gene,offtarget,NA
+PTPN2_KO_g1,chr1:+214364578,PTPN14,NA,171,Gene,offtarget,NA
+PTPN2_KO_g1,chr18:+12817207,PSMG2,NA,88261,proximal_gene,proximal,88261

@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+SUV39H1_KO,SUV39H1,KO,SUV39H1_KO_g2,4,0,3,0,1

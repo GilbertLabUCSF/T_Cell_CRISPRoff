@@ -1,0 +1,8 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+RASA2_KO_g1,chr3:-141574008,RASA2,NA,N/A,Gene,offtarget,NA
+RASA2_KO_g1,chr14:+74207352,LOC105370564,NA,27,Gene,offtarget,NA
+RASA2_KO_g1,chr14:-68397130,LOC101927971,NA,41,Gene,offtarget,NA
+RASA2_KO_g1,chr12:-132770597,GOLGA3,NA,43,Gene,offtarget,NA
+RASA2_KO_g1,chr13:+114176040,LOC101929355,NA,43,Gene,offtarget,NA
+RASA2_KO_g1,chr9:+117871140,LOC105376244,NA,51,Gene,offtarget,NA
+RASA2_KO_g1,chr4:-152284479,LOC105377492,NA,52,Gene,offtarget,NA

@@ -1,0 +1,7 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+TBC1D24,0.00724456854048849,FALSE,offtarget,Gene
+LOC105377483,0,FALSE,offtarget,Gene
+LOC107985567,0,FALSE,offtarget,Gene
+TMBIM4,-0.02795895496004874,FALSE,offtarget,Gene
+RC3H1,0.26060263309335596,FALSE,both,Target
+SERPINC1,0,FALSE,proximal,proximal_gene

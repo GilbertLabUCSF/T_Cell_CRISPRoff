@@ -1,0 +1,8 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+MED12_CRISPRoff_guide2,chr4:-112515677,NEUROG2,63973,25,Promoter,offtarget,NA
+MED12_CRISPRoff_guide2,chr7:-43869142,MRPS24,64951,46,Promoter,offtarget,NA
+MED12_CRISPRoff_guide2,chr8:-37626259,LOC105379380,105379380,47,Promoter,offtarget,NA
+MED12_CRISPRoff_guide2,chrX:-71118705,IL2RG,NA,6596,proximal_gene,proximal,6596
+MED12_CRISPRoff_guide2,chrX:-71118705,CXorf65,NA,11916,proximal_gene,proximal,11916
+MED12_CRISPRoff_guide2,chrX:-71118705,SNX12,NA,45278,proximal_gene,proximal,45278
+MED12_CRISPRoff_guide2,chrX:-71118705,LOC107985688,NA,64676,proximal_gene,proximal,64676

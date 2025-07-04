@@ -1,0 +1,9 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+MED12_KO_maya,chrX:+71119410,MED12,NA,N/A,Gene,offtarget,NA
+MED12_KO_maya,chr3:+130116867,LOC105374104,NA,26,Gene,offtarget,NA
+MED12_KO_maya,chr20:-63775750,ZBTB46,NA,35,Gene,offtarget,NA
+MED12_KO_maya,chr10:+42237068,LOC105378267,NA,38,Gene,offtarget,NA
+MED12_KO_maya,chrX:+71119410,MED12,NA,0,proximal_gene,proximal,0
+MED12_KO_maya,chrX:+71119410,FOXO4,NA,15877,proximal_gene,proximal,15877
+MED12_KO_maya,chrX:+71119410,NLGN3,NA,25410,proximal_gene,proximal,25410
+MED12_KO_maya,chrX:+71119410,GJB1,NA,93400,proximal_gene,proximal,93400

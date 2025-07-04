@@ -1,0 +1,15 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+PTPN2_CRISPRoff_guide6,chr17:+1270899,BHLHA9,727857,22,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr2:-56185363,LOC100129434,100129434,27,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr11:+61429439,SAXO4,220004,33,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr11:+61429439,SDHAF2,54949,33,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr2:-226799624,IRS1,3667,40,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr7:+74774383,NCF1,653361,47,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr7:-75171572,NCF1C,654817,47,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr7:+73220997,NCF1B,654816,47,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr19:+55485981,NAT14,57106,50,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr22:+40856733,XPNPEP3,63929,62,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr8:-124998118,SQLE-DT,105375744,64,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr4:-165207652,TMEM192,201931,64,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr19:+35030706,SCN1B,6324,67,Promoter,offtarget,NA
+PTPN2_CRISPRoff_guide6,chr18:-12884209,PTPN2,NA,0,proximal_gene,proximal,0

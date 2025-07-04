@@ -1,0 +1,8 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+LOC105370564,0,FALSE,offtarget,Gene
+LOC101927971,0,FALSE,offtarget,Gene
+GOLGA3,0.1679936615136075,FALSE,offtarget,Gene
+LOC101929355,0,FALSE,offtarget,Gene
+LOC105376244,0,FALSE,offtarget,Gene
+LOC105377492,0,FALSE,offtarget,Gene
+RASA2,-0.5505672999205213,TRUE,both,Target

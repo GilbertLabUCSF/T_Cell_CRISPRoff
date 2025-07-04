@@ -1,0 +1,5 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+MTHFD2L,0,FALSE,offtarget,Gene
+ARHGEF12,0.10423087940863084,FALSE,offtarget,Gene
+SRC,-0.9288454673728864,FALSE,offtarget,Gene
+SUV39H1,-1.1863434678733515,FALSE,both,Target

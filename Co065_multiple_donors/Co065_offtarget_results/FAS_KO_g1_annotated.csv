@@ -1,0 +1,13 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+FAS_KO_g1,chr10:-89010758,FAS,NA,N/A,Gene,offtarget,NA
+FAS_KO_g1,chr2:+73257569,FBXO41,NA,68,Gene,offtarget,NA
+FAS_KO_g1,chr4:-107950677,CYP2U1,NA,71,Gene,offtarget,NA
+FAS_KO_g1,chr6:-170152907,LOC101929614,NA,72,Gene,offtarget,NA
+FAS_KO_g1,chr1:+46041420,PIK3R3,NA,84,Gene,offtarget,NA
+FAS_KO_g1,chr1:-113880098,BCL2L15,NA,97,Gene,offtarget,NA
+FAS_KO_g1,chr7:+47276178,TNS3,NA,100,Gene,offtarget,NA
+FAS_KO_g1,chr8:-17095205,MICU3,NA,103,Gene,offtarget,NA
+FAS_KO_g1,chr7:+100893771,ACHE,NA,111,Gene,offtarget,NA
+FAS_KO_g1,chr10:-89010758,FAS-AS1,NA,16508,proximal_gene,proximal,16508
+FAS_KO_g1,chr10:-89010758,ACTA2,NA,19418,proximal_gene,proximal,19418
+FAS_KO_g1,chr10:-89010758,MIR4679-2,NA,52576,proximal_gene,proximal,52576

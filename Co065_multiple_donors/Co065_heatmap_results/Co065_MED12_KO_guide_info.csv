@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+MED12_KO,MED12,KO,MED12_KO_maya,7,0,3,3,1

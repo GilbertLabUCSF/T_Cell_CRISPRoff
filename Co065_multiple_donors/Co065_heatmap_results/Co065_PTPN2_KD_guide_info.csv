@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+PTPN2_KD,PTPN2,KD,"PTPN2_CRISPRoff_guide3, PTPN2_CRISPRoff_guide5, PTPN2_CRISPRoff_guide6",42,0,40,1,1

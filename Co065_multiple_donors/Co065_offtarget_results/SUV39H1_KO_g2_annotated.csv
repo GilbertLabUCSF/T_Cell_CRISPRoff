@@ -1,0 +1,5 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+SUV39H1_KO_g2,chrX:-48698979,SUV39H1,NA,N/A,Gene,offtarget,NA
+SUV39H1_KO_g2,chr4:+74227428,MTHFD2L,NA,38,Gene,offtarget,NA
+SUV39H1_KO_g2,chr11:-120486981,ARHGEF12,NA,72,Gene,offtarget,NA
+SUV39H1_KO_g2,chr20:-37403651,SRC,NA,112,Gene,offtarget,NA

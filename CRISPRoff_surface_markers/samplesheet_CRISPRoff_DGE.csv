@@ -1,0 +1,26 @@
+sample      ,Cas       ,Target ,Donor   ,Experiment Day
+111_Neg_D2  ,CRISPRi   ,NTC    ,Donor 2 ,            28
+151_111_D1  ,CRISPRi   ,CD151  ,Donor 1 ,            28
+151_111_D2  ,CRISPRi   ,CD151  ,Donor 2 ,            28
+151_33b_D1  ,CRISPRoff ,CD151  ,Donor 1 ,            28
+151_33b_D2  ,CRISPRoff ,CD151  ,Donor 2 ,            28
+151_Cas9_D1 ,Cas9      ,CD151  ,Donor 1 ,            28
+151_Cas9_D2 ,Cas9      ,CD151  ,Donor 2 ,            28
+29_111_D1   ,CRISPRi   ,CD29   ,Donor 1 ,            28
+29_111_D2   ,CRISPRi   ,CD29   ,Donor 2 ,            28
+29_33b_D1   ,CRISPRoff ,CD29   ,Donor 1 ,            28
+29_33b_D2   ,CRISPRoff ,CD29   ,Donor 2 ,            28
+29_Cas9_D1  ,Cas9      ,CD29   ,Donor 1 ,            28
+29_Cas9_D2  ,Cas9      ,CD29   ,Donor 2 ,            28
+33b_Neg_D1  ,CRISPRoff ,NTC    ,Donor 1 ,            28
+33b_Neg_D2  ,CRISPRoff ,NTC    ,Donor 2 ,            28
+55_111_D1   ,CRISPRi   ,CD55   ,Donor 1 ,            28
+55_111_D2   ,CRISPRi   ,CD55   ,Donor 2 ,            28
+55_33b_D1   ,CRISPRoff ,CD55   ,Donor 1 ,            28
+55_33b_D2   ,CRISPRoff ,CD55   ,Donor 2 ,            28
+55_Cas9_D1  ,Cas9      ,CD55   ,Donor 1 ,            28
+55_Cas9_D2  ,Cas9      ,CD55   ,Donor 2 ,            28
+81_111_D2   ,CRISPRi   ,CD81   ,Donor 2 ,            28
+81_33b_D1   ,CRISPRoff ,CD81   ,Donor 1 ,            28
+81_33b_D2   ,CRISPRoff ,CD81   ,Donor 2 ,            28
+81_Cas9_D1  ,Cas9      ,CD81   ,Donor 1 ,            28

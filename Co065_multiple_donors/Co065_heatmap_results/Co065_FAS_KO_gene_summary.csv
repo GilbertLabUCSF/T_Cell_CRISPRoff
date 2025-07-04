@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Gene,8,FAS_KO,FAS
+proximal,proximal_gene,3,FAS_KO,FAS
+both,Target,1,FAS_KO,FAS

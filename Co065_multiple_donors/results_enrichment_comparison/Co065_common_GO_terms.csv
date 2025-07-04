@@ -1,0 +1,200 @@
+Term,Count,Contrasts,Mean_adj_P
+B cell proliferation,3,"RC3H1_KO, RASA2_KO, MED12_KD",0.025130907549038635
+chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",1.1338065630579876e-5
+taxis,3,"RASA2_KO, RASA2_KD, MED12_KD",1.1338065630579876e-5
+cell chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",6.271120224973034e-5
+immune effector process,3,"RASA2_KO, RASA2_KD, MED12_KD",0.01518565677649935
+leukocyte mediated immunity,3,"RASA2_KO, RASA2_KD, MED12_KD",0.005107558477810507
+gliogenesis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0020873556173330796
+positive regulation of response to external stimulus,3,"RASA2_KO, RASA2_KD, MED12_KD",0.002510314598702627
+G protein-coupled receptor signaling pathway,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0037906332650713068
+hemostasis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0011323649251476933
+regulation of body fluid levels,3,"RASA2_KO, RASA2_KD, MED12_KD",6.03687004059387e-4
+leukocyte migration,3,"RASA2_KO, RASA2_KD, MED12_KD",7.458882858634652e-4
+vasculature development,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0022774974822427937
+blood coagulation,3,"RASA2_KO, RASA2_KD, MED12_KD",0.003802092513005767
+coagulation,3,"RASA2_KO, RASA2_KD, MED12_KD",0.004033757091840046
+regulation of chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0014454501984481223
+myeloid leukocyte migration,3,"RASA2_KO, RASA2_KD, MED12_KD",0.002168672098120607
+blood vessel development,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0031259492580225593
+leukocyte chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.002294665242738164
+positive regulation of chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0032738625117928397
+chemokine-mediated signaling pathway,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0012601871576301863
+regulation of smooth muscle cell migration,3,"RASA2_KO, RASA2_KD, MED12_KD",0.006248975053287396
+blood vessel morphogenesis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0053112146370189175
+smooth muscle cell migration,3,"RASA2_KO, RASA2_KD, MED12_KD",0.009062826415395499
+response to wounding,3,"RASA2_KO, RASA2_KD, MED12_KD",0.001224766766833587
+response to chemokine,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0022529630667144514
+cellular response to chemokine,3,"RASA2_KO, RASA2_KD, MED12_KD",0.0022529630667144514
+myeloid leukocyte activation,3,"RASA2_KO, RASA2_KD, MED12_KD",0.004869831905020388
+chemical synaptic transmission,3,"RASA2_KO, RASA2_KD, MED12_KD",0.01827067754055119
+anterograde trans-synaptic signaling,3,"RASA2_KO, RASA2_KD, MED12_KD",0.01827067754055119
+tube morphogenesis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.013043964023973986
+response to bacterium,3,"RASA2_KO, RASA2_KD, MED12_KD",0.017759548836766486
+muscle cell migration,3,"RASA2_KO, RASA2_KD, MED12_KD",0.013037420624171467
+regulation of MAPK cascade,3,"RASA2_KO, RASA2_KD, MED12_KD",0.005294286470930713
+positive regulation of cell migration,3,"RASA2_KO, RASA2_KD, MED12_KD",0.006889997731239325
+positive regulation of apoptotic process,3,"RASA2_KO, RASA2_KD, MED12_KD",0.007207345842910489
+positive regulation of MAPK cascade,3,"RASA2_KO, RASA2_KD, MED12_KD",0.00887166537277372
+animal organ morphogenesis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.007589672950541892
+positive regulation of cell motility,3,"RASA2_KO, RASA2_KD, MED12_KD",0.00850172469944877
+positive regulation of programmed cell death,3,"RASA2_KO, RASA2_KD, MED12_KD",0.006648800895955261
+positive regulation of locomotion,3,"RASA2_KO, RASA2_KD, MED12_KD",0.009302424698183072
+positive regulation of ERK1 and ERK2 cascade,3,"RASA2_KO, RASA2_KD, MED12_KD",0.009601249672606985
+MAPK cascade,3,"RASA2_KO, RASA2_KD, MED12_KD",0.009729837651164454
+regulation of leukocyte chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.013162551790625166
+wound healing,3,"RASA2_KO, RASA2_KD, MED12_KD",0.008988749034595095
+regulation of leukocyte migration,3,"RASA2_KO, RASA2_KD, MED12_KD",0.008840092015566726
+regulation of response to wounding,3,"RASA2_KO, RASA2_KD, MED12_KD",0.020271895354924088
+positive regulation of leukocyte chemotaxis,3,"RASA2_KO, RASA2_KD, MED12_KD",0.018655262587304405
+metanephros development,3,"RASA2_KO, RASA2_KD, MED12_KD",0.020702502036257498
+motor neuron axon guidance,3,"RASA2_KO, RASA2_KD, MED12_KD",0.021203225025855577
+regulation of ERK1 and ERK2 cascade,3,"RASA2_KO, RASA2_KD, MED12_KD",0.023032775738307525
+epithelial cell differentiation,3,"RASA2_KO, RASA2_KD, MED12_KD",0.031698155227715005
+second-messenger-mediated signaling,3,"RASA2_KO, RASA2_KD, MED12_KD",0.013815729048050878
+modulation of chemical synaptic transmission,3,"RASA2_KO, RASA2_KD, MED12_KD",0.024973364100069294
+regulation of trans-synaptic signaling,3,"RASA2_KO, RASA2_KD, MED12_KD",0.02559282302088766
+autonomic nervous system development,3,"RASA2_KO, RASA2_KD, MED12_KD",0.042484112691569965
+megakaryocyte differentiation,2,"RC3H1_KO, RASA2_KO",0.008325113131530733
+nucleosome assembly,2,"RC3H1_KO, RASA2_KO",0.018276200860895618
+regulation of hemopoiesis,2,"RC3H1_KO, MED12_KD",0.01627297782334546
+negative regulation of cell differentiation,2,"RC3H1_KO, MED12_KD",0.0016199914290973793
+leukocyte activation involved in immune response,2,"RASA2_KO, MED12_KD",4.085913169202718e-4
+cell activation involved in immune response,2,"RASA2_KO, MED12_KD",4.517944894151461e-4
+regulation of cell activation,2,"RASA2_KO, MED12_KD",3.466313335688107e-4
+myeloid leukocyte mediated immunity,2,"RASA2_KO, RASA2_KD",0.005723752948848147
+regulated exocytosis,2,"RASA2_KO, RASA2_KD",0.009966089966243624
+muscle structure development,2,"RASA2_KO, RASA2_KD",0.010639590093687302
+cellular response to vascular endothelial growth factor stimulus,2,"RASA2_KO, RASA2_KD",0.0031767586788455523
+transmembrane receptor protein tyrosine kinase signaling pathway,2,"RASA2_KO, RASA2_KD",8.648791443890511e-4
+leukocyte degranulation,2,"RASA2_KO, RASA2_KD",0.002783574639891459
+synaptic signaling,2,"RASA2_KO, RASA2_KD",0.0012643328918717346
+inflammatory response,2,"RASA2_KO, MED12_KD",6.80574975210704e-4
+positive regulation of immune effector process,2,"RASA2_KO, MED12_KD",6.946143227341732e-4
+T cell differentiation,2,"RASA2_KO, MED12_KD",0.0015313169335765806
+T cell activation,2,"RASA2_KO, MED12_KD",8.233335429649871e-4
+mononuclear cell differentiation,2,"RASA2_KO, MED12_KD",8.980733811518182e-4
+positive regulation of cell activation,2,"RASA2_KO, MED12_KD",0.0011781056937823426
+lymphocyte differentiation,2,"RASA2_KO, MED12_KD",9.770151646324424e-4
+exocytosis,2,"RASA2_KO, RASA2_KD",0.00794698490766973
+myeloid cell activation involved in immune response,2,"RASA2_KO, RASA2_KD",0.005514086553001489
+leukocyte differentiation,2,"RASA2_KO, MED12_KD",0.0010842107189948619
+granulocyte activation,2,"RASA2_KO, RASA2_KD",0.00921597877204145
+regulation of leukocyte mediated immunity,2,"RASA2_KO, MED12_KD",0.0015307589916425165
+regulation of leukocyte activation,2,"RASA2_KO, MED12_KD",0.0014878153090482616
+negative regulation of blood coagulation,2,"RASA2_KO, RASA2_KD",0.0017803894756120335
+endothelial cell chemotaxis,2,"RASA2_KO, RASA2_KD",0.013884854056098746
+podosome assembly,2,"RASA2_KO, RASA2_KD",0.013884854056098746
+negative regulation of hemostasis,2,"RASA2_KO, RASA2_KD",0.0017803894756120335
+phagocytosis,2,"RASA2_KO, MED12_KD",0.0019051300144602812
+positive regulation of leukocyte activation,2,"RASA2_KO, MED12_KD",0.0019579259026274933
+trans-synaptic signaling,2,"RASA2_KO, RASA2_KD",0.0025544545058250444
+skeletal muscle tissue development,2,"RASA2_KO, RASA2_KD",0.023402997769961666
+response to lipopolysaccharide,2,"RASA2_KO, MED12_KD",0.0024042545611298763
+regulation of immune effector process,2,"RASA2_KO, MED12_KD",0.001870895244796295
+negative regulation of coagulation,2,"RASA2_KO, RASA2_KD",0.002274051841462261
+skeletal muscle organ development,2,"RASA2_KO, RASA2_KD",0.02662967589557721
+angiogenesis,2,"RASA2_KO, MED12_KD",0.0022298171021540194
+response to molecule of bacterial origin,2,"RASA2_KO, MED12_KD",0.0024639823623291996
+vascular endothelial growth factor signaling pathway,2,"RASA2_KO, RASA2_KD",0.004916069756718476
+peptidyl-tyrosine phosphorylation,2,"RASA2_KO, RASA2_KD",0.022090332323608554
+phosphatidylinositol 3-kinase/protein kinase B signal transduction,2,"RASA2_KO, RASA2_KD",0.002706132952951712
+positive regulation of cytokine production,2,"RASA2_KO, MED12_KD",0.0023988202839202006
+mast cell mediated immunity,2,"RASA2_KO, RASA2_KD",0.016743809166859278
+peptidyl-tyrosine modification,2,"RASA2_KO, RASA2_KD",0.02312560819739677
+regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,2,"RASA2_KO, RASA2_KD",0.00340533069047488
+response to growth factor,2,"RASA2_KO, RASA2_KD",0.0031491621686196075
+cytokine-mediated signaling pathway,2,"RASA2_KO, MED12_KD",0.0034768149070470225
+secretion by cell,2,"RASA2_KO, RASA2_KD",0.02058733042534589
+platelet-derived growth factor receptor signaling pathway,2,"RASA2_KO, RASA2_KD",0.024528789580936666
+positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,2,"RASA2_KO, RASA2_KD",0.006294652667880932
+regulation of leukocyte proliferation,2,"RASA2_KO, MED12_KD",0.004987522351319067
+positive regulation of smooth muscle cell migration,2,"RASA2_KO, MED12_KD",0.015613972463048822
+cell killing,2,"RASA2_KO, MED12_KD",0.005667464882888578
+positive regulation of leukocyte proliferation,2,"RASA2_KO, MED12_KD",0.005701071962469463
+regulation of lymphocyte activation,2,"RASA2_KO, MED12_KD",0.0058589865804184816
+regulation of plasminogen activation,2,"RASA2_KO, RASA2_KD",0.012776867356464397
+endocytosis,2,"RASA2_KO, MED12_KD",0.006347139408896295
+positive regulation of leukocyte mediated cytotoxicity,2,"RASA2_KO, MED12_KD",0.006842400049009646
+regulation of blood coagulation,2,"RASA2_KO, RASA2_KD",0.007679822309374607
+regulation of hemostasis,2,"RASA2_KO, RASA2_KD",0.007679822309374607
+muscle organ development,2,"RASA2_KO, RASA2_KD",0.027829322302311207
+lymphocyte activation involved in immune response,2,"RASA2_KO, MED12_KD",0.008536428567002237
+regulation of cell killing,2,"RASA2_KO, MED12_KD",0.007836983154455216
+positive regulation of cell killing,2,"RASA2_KO, MED12_KD",0.00830017796480723
+regulation of lymphocyte proliferation,2,"RASA2_KO, MED12_KD",0.007800772920432779
+negative regulation of wound healing,2,"RASA2_KO, RASA2_KD",0.008112484140792037
+plasminogen activation,2,"RASA2_KO, RASA2_KD",0.017937163923118005
+positive regulation of leukocyte mediated immunity,2,"RASA2_KO, MED12_KD",0.008897361463324297
+regulation of mononuclear cell proliferation,2,"RASA2_KO, MED12_KD",0.008402454568392835
+cellular response to growth factor stimulus,2,"RASA2_KO, RASA2_KD",0.010489108221796016
+regulation of coagulation,2,"RASA2_KO, RASA2_KD",0.010152986068719758
+glial cell differentiation,2,"RASA2_KO, MED12_KD",0.015473435663971248
+positive regulation of exocytosis,2,"RASA2_KO, RASA2_KD",0.019250457683070578
+granulocyte migration,2,"RASA2_KO, MED12_KD",0.009923965563723077
+renal system vasculature development,2,"RASA2_KO, RASA2_KD",0.010969148920550124
+kidney vasculature development,2,"RASA2_KO, RASA2_KD",0.010969148920550124
+platelet activation,2,"RASA2_KO, MED12_KD",0.017698062412554103
+positive regulation of lymphocyte proliferation,2,"RASA2_KO, MED12_KD",0.010118399998091871
+lymphocyte mediated immunity,2,"RASA2_KO, MED12_KD",0.010176056603313107
+neutrophil chemotaxis,2,"RASA2_KO, MED12_KD",0.010253977455158667
+mast cell degranulation,2,"RASA2_KO, RASA2_KD",0.023144571587870123
+positive regulation of mononuclear cell proliferation,2,"RASA2_KO, MED12_KD",0.011455243196069624
+mast cell activation involved in immune response,2,"RASA2_KO, RASA2_KD",0.02550629977321824
+positive regulation of protein phosphorylation,2,"RASA2_KO, MED12_KD",0.02085985970008851
+positive regulation of lymphocyte activation,2,"RASA2_KO, MED12_KD",0.01343571864053221
+regulation of wound healing,2,"RASA2_KO, RASA2_KD",0.015056223343473419
+exocrine system development,2,"RASA2_KO, RASA2_KD",0.017144484324871704
+granulocyte chemotaxis,2,"RASA2_KO, MED12_KD",0.01651805782482231
+humoral immune response,2,"RASA2_KO, MED12_KD",0.016779641919086888
+production of molecular mediator of immune response,2,"RASA2_KO, MED12_KD",0.01945353199723703
+negative regulation of response to wounding,2,"RASA2_KO, RASA2_KD",0.01812569836168673
+leukocyte mediated cytotoxicity,2,"RASA2_KO, MED12_KD",0.018822254855969393
+leukocyte proliferation,2,"RASA2_KO, MED12_KD",0.018980697183327344
+regulation of leukocyte mediated cytotoxicity,2,"RASA2_KO, MED12_KD",0.019014810285448325
+positive regulation of peptidyl-tyrosine phosphorylation,2,"RASA2_KO, MED12_KD",0.029726498473690077
+positive regulation of phosphorylation,2,"RASA2_KO, MED12_KD",0.03355535296495354
+peripheral nervous system development,2,"RASA2_KO, RASA2_KD",0.04386915169631802
+mast cell activation,2,"RASA2_KO, RASA2_KD",0.04386915169631802
+neutrophil migration,2,"RASA2_KO, MED12_KD",0.021582869267733656
+regulation of T cell activation,2,"RASA2_KO, MED12_KD",0.021361820756595207
+positive regulation of cell adhesion,2,"RASA2_KO, MED12_KD",0.021548678870995135
+synapse organization,2,"RASA2_KO, MED12_KD",0.025228231591910035
+ERK1 and ERK2 cascade,2,"RASA2_KO, MED12_KD",0.024759272631505434
+axon development,2,"RASA2_KD, MED12_KD",0.001175058149316776
+axonogenesis,2,"RASA2_KD, MED12_KD",0.0035554070578591797
+axon guidance,2,"RASA2_KD, MED12_KD",0.0046778622065167365
+neuron projection guidance,2,"RASA2_KD, MED12_KD",0.0046778622065167365
+neuron projection morphogenesis,2,"RASA2_KD, MED12_KD",0.004289577070090882
+cell morphogenesis involved in neuron differentiation,2,"RASA2_KD, MED12_KD",0.004282394131504485
+cellular component morphogenesis,2,"RASA2_KD, MED12_KD",0.004443571107202744
+plasma membrane bounded cell projection morphogenesis,2,"RASA2_KD, MED12_KD",0.0043867729859786535
+cell projection morphogenesis,2,"RASA2_KD, MED12_KD",0.004483851964642946
+cell part morphogenesis,2,"RASA2_KD, MED12_KD",0.008575788354852351
+behavior,2,"RASA2_KD, MED12_KD",0.0032253944260309674
+kidney development,2,"RASA2_KD, MED12_KD",0.009421771549507569
+renal system development,2,"RASA2_KD, MED12_KD",0.01109586629691934
+nephron development,2,"RASA2_KD, MED12_KD",0.02152644402649767
+positive regulation of cytosolic calcium ion concentration,2,"RASA2_KD, MED12_KD",0.002838794089271561
+positive regulation of calcium ion transport,2,"RASA2_KD, MED12_KD",0.02348174427205702
+kidney epithelium development,2,"RASA2_KD, MED12_KD",0.02348174427205702
+diencephalon development,2,"RASA2_KD, MED12_KD",0.018832867644044876
+calcium-mediated signaling,2,"RASA2_KD, MED12_KD",0.007556713678605784
+developmental growth,2,"RASA2_KD, MED12_KD",0.012686714427421027
+monocyte chemotaxis,2,"RASA2_KD, MED12_KD",0.010144773579593588
+glomerulus development,2,"RASA2_KD, MED12_KD",0.017415203626716506
+cell adhesion mediated by integrin,2,"RASA2_KD, MED12_KD",0.01570418749537158
+regulation of cell projection organization,2,"RASA2_KD, MED12_KD",0.02352781055066614
+nervous system process,2,"RASA2_KD, MED12_KD",0.01794354255592014
+regulation of developmental growth,2,"RASA2_KD, MED12_KD",0.030557981740446785
+regulation of gliogenesis,2,"RASA2_KD, MED12_KD",0.025134233353638673
+regulation of neuron projection development,2,"RASA2_KD, MED12_KD",0.024681115178733205
+regulation of monoatomic ion transport,2,"RASA2_KD, MED12_KD",0.019537500169978347
+receptor-mediated endocytosis,2,"RASA2_KD, MED12_KD",0.019511767367461033
+regulation of hydrolase activity,2,"RASA2_KD, MED12_KD",0.018367012626210537
+cell-cell adhesion via plasma-membrane adhesion molecules,2,"RASA2_KD, MED12_KD",0.01966859188066099
+mononuclear cell migration,2,"RASA2_KD, MED12_KD",0.019884236037624674
+organ growth,2,"RASA2_KD, MED12_KD",0.021507074922352824
+sprouting angiogenesis,2,"RASA2_KD, MED12_KD",0.03498699087672613
+regulation of plasma membrane bounded cell projection organization,2,"RASA2_KD, MED12_KD",0.03910463107624294
+homophilic cell adhesion via plasma membrane adhesion molecules,2,"RASA2_KD, MED12_KD",0.032768743392276284

@@ -1,0 +1,3 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Gene,6,RASA2_KO,RASA2
+both,Target,1,RASA2_KO,RASA2

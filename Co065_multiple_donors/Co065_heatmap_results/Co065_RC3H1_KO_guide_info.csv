@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+RC3H1_KO,RC3H1,KO,RC3H1_KO_g1,6,0,4,1,1

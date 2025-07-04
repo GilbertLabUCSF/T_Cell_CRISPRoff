@@ -1,0 +1,149 @@
+# History files
+.Rhistory
+.Rapp.history
+
+
+## excluded experiments; not successful
+CRISPRoff_biotargets_1/
+Co062_multiple_guides/
+RNAseq_pipeline_output/
+laine_methylation_recalc/
+
+
+# nextflow files
+.nextflow/
+work/
+fastq/
+.nextflow.log.*
+results/ 
+## This is a nextflow output folder
+
+
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj.user
+.Rproj.user*
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+.secrets
+
+# Large data files (common in bioinformatics)
+*.csv.gz
+*.tsv.gz
+*.h5
+*.hdf5
+*.feather
+*.parquet
+
+# Bioconductor specific
+*.db
+*.sqlite
+
+# Python files (if using reticulate)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Claude AI assistant folder
+.claude/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Package files
+*.deb
+*.rpm
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc 

@@ -1,0 +1,8 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+RC3H1_KO_g1,chr1:-173972562,RC3H1,NA,N/A,Gene,offtarget,NA
+RC3H1_KO_g1,chr16:+2502548,TBC1D24,NA,72,Gene,offtarget,NA
+RC3H1_KO_g1,chr4:+148681794,LOC105377483,NA,74,Gene,offtarget,NA
+RC3H1_KO_g1,chr12:-66153344,TMBIM4,NA,93,Gene,offtarget,NA
+RC3H1_KO_g1,chr22:-41677699,LOC107985567,NA,93,Gene,offtarget,NA
+RC3H1_KO_g1,chr1:-173972562,RC3H1,NA,0,proximal_gene,proximal,0
+RC3H1_KO_g1,chr1:-173972562,SERPINC1,NA,55234,proximal_gene,proximal,55234

@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+RC3H1_KD,RC3H1,KD,"RC3H1_CRISPRoff_guide1, RC3H1_CRISPRoff_guide2, RC3H1_CRISPRoff_guide3",10,0,8,1,1

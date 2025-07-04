@@ -1,0 +1,6 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+FAS_CRISPRoff_guide3,chr10:-88990940,ACTA2,59,N/A,Promoter,offtarget,NA
+FAS_CRISPRoff_guide3,chr11:-62123870,LOC124902681,124902681,106,Promoter,offtarget,NA
+FAS_CRISPRoff_guide3,chr10:-88990940,FAS-AS1,NA,0,proximal_gene,proximal,0
+FAS_CRISPRoff_guide3,chr10:-88990940,ACTA2,NA,0,proximal_gene,proximal,0
+FAS_CRISPRoff_guide3,chr10:-88990940,MIR4679-2,NA,72394,proximal_gene,proximal,72394

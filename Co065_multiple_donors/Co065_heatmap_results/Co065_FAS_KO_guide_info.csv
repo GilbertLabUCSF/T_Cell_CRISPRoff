@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+FAS_KO,FAS,KO,FAS_KO_g1,12,0,8,3,1

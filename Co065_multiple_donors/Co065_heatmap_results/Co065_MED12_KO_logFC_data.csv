@@ -1,0 +1,8 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+LOC105374104,0,FALSE,offtarget,Gene
+ZBTB46,0.07468695705149986,FALSE,offtarget,Gene
+LOC105378267,0,FALSE,offtarget,Gene
+MED12,-0.4369613160603327,FALSE,both,Target
+FOXO4,0.04152610615214058,FALSE,proximal,proximal_gene
+NLGN3,0.48519165757823424,FALSE,proximal,proximal_gene
+GJB1,0,FALSE,proximal,proximal_gene

@@ -1,0 +1,607 @@
+ID,Description,RC3H1_KO,RASA2_KO,RASA2_KD,MED12_KD,PTPN2_KDvsKO
+GO:0000395,mRNA 5'-splice site recognition,1,0,0,0,0
+GO:0045292,"mRNA cis splicing, via spliceosome",1,0,0,0,0
+GO:0006376,mRNA splice site recognition,1,0,0,0,0
+GO:0045653,negative regulation of megakaryocyte differentiation,1,0,0,0,0
+GO:0061644,protein localization to CENP-A containing chromatin,1,0,0,0,0
+GO:0000245,spliceosomal complex assembly,1,0,0,0,0
+GO:0022618,protein-RNA complex assembly,1,0,0,0,0
+GO:0071826,protein-RNA complex organization,1,0,0,0,0
+GO:0045652,regulation of megakaryocyte differentiation,1,0,0,0,0
+GO:0071459,"protein localization to chromosome, centromeric region",1,0,0,0,0
+GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",1,0,0,0,0
+GO:0000398,"mRNA splicing, via spliceosome",1,0,0,0,0
+GO:0000375,"RNA splicing, via transesterification reactions",1,0,0,0,0
+GO:0030219,megakaryocyte differentiation,1,1,0,0,0
+GO:0071168,protein localization to chromatin,1,0,0,0,0
+GO:0045638,negative regulation of myeloid cell differentiation,1,0,0,0,0
+GO:0008380,RNA splicing,1,0,0,0,0
+GO:0006397,mRNA processing,1,0,0,0,0
+GO:0022613,ribonucleoprotein complex biogenesis,1,0,0,0,0
+GO:0006334,nucleosome assembly,1,1,0,0,0
+GO:0034728,nucleosome organization,1,0,0,0,0
+GO:0034502,protein localization to chromosome,1,0,0,0,0
+GO:1903706,regulation of hemopoiesis,1,0,0,1,0
+GO:0045637,regulation of myeloid cell differentiation,1,0,0,0,0
+GO:0045596,negative regulation of cell differentiation,1,0,0,1,0
+GO:0032200,telomere organization,1,0,0,0,0
+GO:0050853,B cell receptor signaling pathway,1,0,0,0,0
+GO:0065004,protein-DNA complex assembly,1,0,0,0,0
+GO:0042100,B cell proliferation,1,1,0,1,0
+GO:0030099,myeloid cell differentiation,1,0,0,0,0
+GO:0050851,antigen receptor-mediated signaling pathway,1,0,0,0,0
+GO:0006935,chemotaxis,0,1,1,1,0
+GO:0042330,taxis,0,1,1,1,0
+GO:0060326,cell chemotaxis,0,1,1,1,0
+GO:0002252,immune effector process,0,1,1,1,0
+GO:0002443,leukocyte mediated immunity,0,1,1,1,0
+GO:0002366,leukocyte activation involved in immune response,0,1,0,1,0
+GO:0002263,cell activation involved in immune response,0,1,0,1,0
+GO:0042063,gliogenesis,0,1,1,1,0
+GO:0032103,positive regulation of response to external stimulus,0,1,1,1,0
+GO:0007186,G protein-coupled receptor signaling pathway,0,1,1,1,0
+GO:0007599,hemostasis,0,1,1,1,0
+GO:0035914,skeletal muscle cell differentiation,0,1,0,0,0
+GO:0050865,regulation of cell activation,0,1,0,1,0
+GO:0002444,myeloid leukocyte mediated immunity,0,1,1,0,0
+GO:0045055,regulated exocytosis,0,1,1,0,0
+GO:0050878,regulation of body fluid levels,0,1,1,1,0
+GO:0050900,leukocyte migration,0,1,1,1,0
+GO:0061061,muscle structure development,0,1,1,0,0
+GO:0035924,cellular response to vascular endothelial growth factor stimulus,0,1,1,0,0
+GO:0043300,regulation of leukocyte degranulation,0,1,0,0,0
+GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,0,1,1,0,0
+GO:0043299,leukocyte degranulation,0,1,1,0,0
+GO:0099536,synaptic signaling,0,1,1,0,0
+GO:0001944,vasculature development,0,1,1,1,0
+GO:0006954,inflammatory response,0,1,0,1,0
+GO:0002699,positive regulation of immune effector process,0,1,0,1,0
+GO:0007596,blood coagulation,0,1,1,1,0
+GO:0050817,coagulation,0,1,1,1,0
+GO:0030217,T cell differentiation,0,1,0,1,0
+GO:0050920,regulation of chemotaxis,0,1,1,1,0
+GO:0097529,myeloid leukocyte migration,0,1,1,1,0
+GO:0001568,blood vessel development,0,1,1,1,0
+GO:0002886,regulation of myeloid leukocyte mediated immunity,0,1,0,0,0
+GO:0030595,leukocyte chemotaxis,0,1,1,1,0
+GO:0042110,T cell activation,0,1,0,1,0
+GO:0050921,positive regulation of chemotaxis,0,1,1,1,0
+GO:1903131,mononuclear cell differentiation,0,1,0,1,0
+GO:0050867,positive regulation of cell activation,0,1,0,1,0
+GO:0070098,chemokine-mediated signaling pathway,0,1,1,1,0
+GO:0030098,lymphocyte differentiation,0,1,0,1,0
+GO:0006887,exocytosis,0,1,1,0,0
+GO:0002275,myeloid cell activation involved in immune response,0,1,1,0,0
+GO:0014910,regulation of smooth muscle cell migration,0,1,1,1,0
+GO:0002521,leukocyte differentiation,0,1,0,1,0
+GO:0048514,blood vessel morphogenesis,0,1,1,1,0
+GO:0036230,granulocyte activation,0,1,1,0,0
+GO:0002703,regulation of leukocyte mediated immunity,0,1,0,1,0
+GO:0060627,regulation of vesicle-mediated transport,0,1,0,0,0
+GO:0014909,smooth muscle cell migration,0,1,1,1,0
+GO:0009611,response to wounding,0,1,1,1,0
+GO:0002694,regulation of leukocyte activation,0,1,0,1,0
+GO:0030195,negative regulation of blood coagulation,0,1,1,0,0
+GO:0035767,endothelial cell chemotaxis,0,1,1,0,0
+GO:0071800,podosome assembly,0,1,1,0,0
+GO:1900047,negative regulation of hemostasis,0,1,1,0,0
+GO:0017157,regulation of exocytosis,0,1,0,0,0
+GO:1990868,response to chemokine,0,1,1,1,0
+GO:1990869,cellular response to chemokine,0,1,1,1,0
+GO:0002274,myeloid leukocyte activation,0,1,1,1,0
+GO:0007268,chemical synaptic transmission,0,1,1,1,0
+GO:0098916,anterograde trans-synaptic signaling,0,1,1,1,0
+GO:0006909,phagocytosis,0,1,0,1,0
+GO:0002696,positive regulation of leukocyte activation,0,1,0,1,0
+GO:0099537,trans-synaptic signaling,0,1,1,0,0
+GO:0007519,skeletal muscle tissue development,0,1,1,0,0
+GO:0032496,response to lipopolysaccharide,0,1,0,1,0
+GO:0002697,regulation of immune effector process,0,1,0,1,0
+GO:0035239,tube morphogenesis,0,1,1,1,0
+GO:0006937,regulation of muscle contraction,0,1,0,0,0
+GO:0043302,positive regulation of leukocyte degranulation,0,1,0,0,0
+GO:0050819,negative regulation of coagulation,0,1,1,0,0
+GO:0060538,skeletal muscle organ development,0,1,1,0,0
+GO:0001525,angiogenesis,0,1,0,1,0
+GO:1903305,regulation of regulated secretory pathway,0,1,0,0,0
+GO:0009617,response to bacterium,0,1,1,1,0
+GO:0002237,response to molecule of bacterial origin,0,1,0,1,0
+GO:0038084,vascular endothelial growth factor signaling pathway,0,1,1,0,0
+GO:0018108,peptidyl-tyrosine phosphorylation,0,1,1,0,0
+GO:0043491,phosphatidylinositol 3-kinase/protein kinase B signal transduction,0,1,1,0,0
+GO:0001819,positive regulation of cytokine production,0,1,0,1,0
+GO:0002448,mast cell mediated immunity,0,1,1,0,0
+GO:0018212,peptidyl-tyrosine modification,0,1,1,0,0
+GO:0051896,regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0,1,1,0,0
+GO:0051046,regulation of secretion,0,1,0,0,0
+GO:0014812,muscle cell migration,0,1,1,1,0
+GO:0070848,response to growth factor,0,1,1,0,0
+GO:0001667,ameboidal-type cell migration,0,1,0,0,0
+GO:0050730,regulation of peptidyl-tyrosine phosphorylation,0,1,0,0,0
+GO:0030858,positive regulation of epithelial cell differentiation,0,1,0,0,0
+GO:0008544,epidermis development,0,1,0,0,0
+GO:0019221,cytokine-mediated signaling pathway,0,1,0,1,0
+GO:0043408,regulation of MAPK cascade,0,1,1,1,0
+GO:0044057,regulation of system process,0,1,0,0,0
+GO:0032940,secretion by cell,0,1,1,0,0
+GO:0048008,platelet-derived growth factor receptor signaling pathway,0,1,1,0,0
+GO:0042119,neutrophil activation,0,1,0,0,0
+GO:0090257,regulation of muscle system process,0,1,0,0,0
+GO:0030335,positive regulation of cell migration,0,1,1,1,0
+GO:0036336,dendritic cell migration,0,1,0,0,0
+GO:0045682,regulation of epidermis development,0,1,0,0,0
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0,1,1,0,0
+GO:0042492,gamma-delta T cell differentiation,0,1,0,0,0
+GO:0070663,regulation of leukocyte proliferation,0,1,0,1,0
+GO:0043065,positive regulation of apoptotic process,0,1,1,1,0
+GO:0014911,positive regulation of smooth muscle cell migration,0,1,0,1,0
+GO:0001906,cell killing,0,1,0,1,0
+GO:1903317,regulation of protein maturation,0,1,0,0,0
+GO:0043410,positive regulation of MAPK cascade,0,1,1,1,0
+GO:0070665,positive regulation of leukocyte proliferation,0,1,0,1,0
+GO:0051249,regulation of lymphocyte activation,0,1,0,1,0
+GO:0009887,animal organ morphogenesis,0,1,1,1,0
+GO:2000147,positive regulation of cell motility,0,1,1,1,0
+GO:0010755,regulation of plasminogen activation,0,1,1,0,0
+GO:0035791,platelet-derived growth factor receptor-beta signaling pathway,0,1,0,0,0
+GO:0006897,endocytosis,0,1,0,1,0
+GO:0001912,positive regulation of leukocyte mediated cytotoxicity,0,1,0,1,0
+GO:0043068,positive regulation of programmed cell death,0,1,1,1,0
+GO:0040017,positive regulation of locomotion,0,1,1,1,0
+GO:0030193,regulation of blood coagulation,0,1,1,0,0
+GO:1900046,regulation of hemostasis,0,1,1,0,0
+GO:1903307,positive regulation of regulated secretory pathway,0,1,0,0,0
+GO:0070374,positive regulation of ERK1 and ERK2 cascade,0,1,1,1,0
+GO:0001938,positive regulation of endothelial cell proliferation,0,1,0,0,0
+GO:0010631,epithelial cell migration,0,1,0,0,0
+GO:0090132,epithelium migration,0,1,0,0,0
+GO:0000165,MAPK cascade,0,1,1,1,0
+GO:0090130,tissue migration,0,1,0,0,0
+GO:0072677,eosinophil migration,0,1,0,0,0
+GO:0007517,muscle organ development,0,1,1,0,0
+GO:0002285,lymphocyte activation involved in immune response,0,1,0,1,0
+GO:0031341,regulation of cell killing,0,1,0,1,0
+GO:0031343,positive regulation of cell killing,0,1,0,1,0
+GO:0050670,regulation of lymphocyte proliferation,0,1,0,1,0
+GO:0006968,cellular defense response,0,1,0,0,0
+GO:0061045,negative regulation of wound healing,0,1,1,0,0
+GO:1903530,regulation of secretion by cell,0,1,0,0,0
+GO:0002688,regulation of leukocyte chemotaxis,0,1,1,1,0
+GO:0031639,plasminogen activation,0,1,1,0,0
+GO:0002705,positive regulation of leukocyte mediated immunity,0,1,0,1,0
+GO:0032944,regulation of mononuclear cell proliferation,0,1,0,1,0
+GO:0071363,cellular response to growth factor stimulus,0,1,1,0,0
+GO:0050818,regulation of coagulation,0,1,1,0,0
+GO:0042060,wound healing,0,1,1,1,0
+GO:0010001,glial cell differentiation,0,1,0,1,0
+GO:0044344,cellular response to fibroblast growth factor stimulus,0,1,0,0,0
+GO:0045859,regulation of protein kinase activity,0,1,0,0,0
+GO:0045921,positive regulation of exocytosis,0,1,1,0,0
+GO:0097530,granulocyte migration,0,1,0,1,0
+GO:0045618,positive regulation of keratinocyte differentiation,0,1,0,0,0
+GO:0061437,renal system vasculature development,0,1,1,0,0
+GO:0061440,kidney vasculature development,0,1,1,0,0
+GO:1903975,regulation of glial cell migration,0,1,0,0,0
+GO:0030168,platelet activation,0,1,0,1,0
+GO:0002685,regulation of leukocyte migration,0,1,1,1,0
+GO:0050671,positive regulation of lymphocyte proliferation,0,1,0,1,0
+GO:0002449,lymphocyte mediated immunity,0,1,0,1,0
+GO:0030593,neutrophil chemotaxis,0,1,0,1,0
+GO:1903034,regulation of response to wounding,0,1,1,1,0
+GO:0071774,response to fibroblast growth factor,0,1,0,0,0
+GO:0043303,mast cell degranulation,0,1,1,0,0
+GO:0032946,positive regulation of mononuclear cell proliferation,0,1,0,1,0
+GO:0002279,mast cell activation involved in immune response,0,1,1,0,0
+GO:0001934,positive regulation of protein phosphorylation,0,1,0,1,0
+GO:0002065,columnar/cuboidal epithelial cell differentiation,0,1,0,0,0
+GO:0002690,positive regulation of leukocyte chemotaxis,0,1,1,1,0
+GO:0002223,stimulatory C-type lectin receptor signaling pathway,0,1,0,0,0
+GO:1990840,response to lectin,0,1,0,0,0
+GO:1990858,cellular response to lectin,0,1,0,0,0
+GO:0051251,positive regulation of lymphocyte activation,0,1,0,1,0
+GO:0061041,regulation of wound healing,0,1,1,0,0
+GO:0001656,metanephros development,0,1,1,1,0
+GO:0019730,antimicrobial humoral response,0,1,0,0,0
+GO:0060491,regulation of cell projection assembly,0,1,0,0,0
+GO:0030856,regulation of epithelial cell differentiation,0,1,0,0,0
+GO:0002407,dendritic cell chemotaxis,0,1,0,0,0
+GO:0008045,motor neuron axon guidance,0,1,1,1,0
+GO:0035272,exocrine system development,0,1,1,0,0
+GO:0060563,neuroepithelial cell differentiation,0,1,0,0,0
+GO:1903319,positive regulation of protein maturation,0,1,0,0,0
+GO:0045604,regulation of epidermal cell differentiation,0,1,0,0,0
+GO:0001936,regulation of endothelial cell proliferation,0,1,0,0,0
+GO:0070372,regulation of ERK1 and ERK2 cascade,0,1,1,1,0
+GO:0071621,granulocyte chemotaxis,0,1,0,1,0
+GO:0006959,humoral immune response,0,1,0,1,0
+GO:0008347,glial cell migration,0,1,0,0,0
+GO:0002440,production of molecular mediator of immune response,0,1,0,1,0
+GO:0045606,positive regulation of epidermal cell differentiation,0,1,0,0,0
+GO:1903035,negative regulation of response to wounding,0,1,1,0,0
+GO:0001666,response to hypoxia,0,1,0,0,0
+GO:0043549,regulation of kinase activity,0,1,0,0,0
+GO:0001909,leukocyte mediated cytotoxicity,0,1,0,1,0
+GO:0070661,leukocyte proliferation,0,1,0,1,0
+GO:0045742,positive regulation of epidermal growth factor receptor signaling pathway,0,1,0,0,0
+GO:0001910,regulation of leukocyte mediated cytotoxicity,0,1,0,1,0
+GO:0030855,epithelial cell differentiation,0,1,1,1,0
+GO:0050731,positive regulation of peptidyl-tyrosine phosphorylation,0,1,0,1,0
+GO:0019932,second-messenger-mediated signaling,0,1,1,1,0
+GO:0042327,positive regulation of phosphorylation,0,1,0,1,0
+GO:0051338,regulation of transferase activity,0,1,0,0,0
+GO:0050804,modulation of chemical synaptic transmission,0,1,1,1,0
+GO:0038093,Fc receptor signaling pathway,0,1,0,0,0
+GO:0099177,regulation of trans-synaptic signaling,0,1,1,1,0
+GO:0097191,extrinsic apoptotic signaling pathway,0,1,0,0,0
+GO:0048483,autonomic nervous system development,0,1,1,1,0
+GO:0055094,response to lipoprotein particle,0,1,0,0,0
+GO:0071404,cellular response to low-density lipoprotein particle stimulus,0,1,0,0,0
+GO:0007422,peripheral nervous system development,0,1,1,0,0
+GO:0045576,mast cell activation,0,1,1,0,0
+GO:0070613,regulation of protein processing,0,1,0,0,0
+GO:1990266,neutrophil migration,0,1,0,1,0
+GO:0050863,regulation of T cell activation,0,1,0,1,0
+GO:0071900,regulation of protein serine/threonine kinase activity,0,1,0,0,0
+GO:0045785,positive regulation of cell adhesion,0,1,0,1,0
+GO:0071396,cellular response to lipid,0,1,0,0,0
+GO:0050808,synapse organization,0,1,0,1,0
+GO:0045684,positive regulation of epidermis development,0,1,0,0,0
+GO:0046629,gamma-delta T cell activation,0,1,0,0,0
+GO:1901186,positive regulation of ERBB signaling pathway,0,1,0,0,0
+GO:0036293,response to decreased oxygen levels,0,1,0,0,0
+GO:1902414,protein localization to cell junction,0,1,0,0,0
+GO:0070371,ERK1 and ERK2 cascade,0,1,0,1,0
+GO:0061564,axon development,0,0,1,1,0
+GO:0007409,axonogenesis,0,0,1,1,0
+GO:0007411,axon guidance,0,0,1,1,0
+GO:0097485,neuron projection guidance,0,0,1,1,0
+GO:0021675,nerve development,0,0,1,0,0
+GO:0048812,neuron projection morphogenesis,0,0,1,1,0
+GO:0048667,cell morphogenesis involved in neuron differentiation,0,0,1,1,0
+GO:0032989,cellular component morphogenesis,0,0,1,1,0
+GO:0120039,plasma membrane bounded cell projection morphogenesis,0,0,1,1,0
+GO:0048858,cell projection morphogenesis,0,0,1,1,0
+GO:0032990,cell part morphogenesis,0,0,1,1,0
+GO:0007610,behavior,0,0,1,1,0
+GO:0050982,detection of mechanical stimulus,0,0,1,0,0
+GO:0001822,kidney development,0,0,1,1,0
+GO:0072001,renal system development,0,0,1,1,0
+GO:0048568,embryonic organ development,0,0,1,0,0
+GO:0060384,innervation,0,0,1,0,0
+GO:0008306,associative learning,0,0,1,0,0
+GO:0072006,nephron development,0,0,1,1,0
+GO:0051606,detection of stimulus,0,0,1,0,0
+GO:0090279,regulation of calcium ion import,0,0,1,0,0
+GO:0009581,detection of external stimulus,0,0,1,0,0
+GO:0007204,positive regulation of cytosolic calcium ion concentration,0,0,1,1,0
+GO:0009582,detection of abiotic stimulus,0,0,1,0,0
+GO:0031638,zymogen activation,0,0,1,0,0
+GO:0050890,cognition,0,0,1,0,0
+GO:0008038,neuron recognition,0,0,1,0,0
+GO:0050906,detection of stimulus involved in sensory perception,0,0,1,0,0
+GO:0061138,morphogenesis of a branching epithelium,0,0,1,0,0
+GO:0009612,response to mechanical stimulus,0,0,1,0,0
+GO:0043523,regulation of neuron apoptotic process,0,0,1,0,0
+GO:0008037,cell recognition,0,0,1,0,0
+GO:0007413,axonal fasciculation,0,0,1,0,0
+GO:0106030,neuron projection fasciculation,0,0,1,0,0
+GO:0040014,regulation of multicellular organism growth,0,0,1,0,0
+GO:0001763,morphogenesis of a branching structure,0,0,1,0,0
+GO:0051928,positive regulation of calcium ion transport,0,0,1,1,0
+GO:0072073,kidney epithelium development,0,0,1,1,0
+GO:0021536,diencephalon development,0,0,1,1,0
+GO:0070509,calcium ion import,0,0,1,0,0
+GO:0019722,calcium-mediated signaling,0,0,1,1,0
+GO:0032102,negative regulation of response to external stimulus,0,0,1,0,0
+GO:0021854,hypothalamus development,0,0,1,0,0
+GO:0048532,anatomical structure arrangement,0,0,1,0,0
+GO:0097067,cellular response to thyroid hormone stimulus,0,0,1,0,0
+GO:0048589,developmental growth,0,0,1,1,0
+GO:0010623,programmed cell death involved in cell development,0,0,1,0,0
+GO:0021602,cranial nerve morphogenesis,0,0,1,0,0
+GO:0021545,cranial nerve development,0,0,1,0,0
+GO:0035282,segmentation,0,0,1,0,0
+GO:0060840,artery development,0,0,1,0,0
+GO:0048167,regulation of synaptic plasticity,0,0,1,0,0
+GO:0072009,nephron epithelium development,0,0,1,0,0
+GO:0002548,monocyte chemotaxis,0,0,1,1,0
+GO:0032835,glomerulus development,0,0,1,1,0
+GO:0048168,regulation of neuronal synaptic plasticity,0,0,1,0,0
+GO:0048844,artery morphogenesis,0,0,1,0,0
+GO:0007612,learning,0,0,1,0,0
+GO:0007431,salivary gland development,0,0,1,0,0
+GO:0007435,salivary gland morphogenesis,0,0,1,0,0
+GO:0072210,metanephric nephron development,0,0,1,0,0
+GO:0007611,learning or memory,0,0,1,0,0
+GO:0033627,cell adhesion mediated by integrin,0,0,1,1,0
+GO:0007389,pattern specification process,0,0,1,0,0
+GO:0032516,positive regulation of phosphoprotein phosphatase activity,0,0,1,0,0
+GO:0048729,tissue morphogenesis,0,0,1,0,0
+GO:0001892,embryonic placenta development,0,0,1,0,0
+GO:0031344,regulation of cell projection organization,0,0,1,1,0
+GO:0051402,neuron apoptotic process,0,0,1,0,0
+GO:0050877,nervous system process,0,0,1,1,0
+GO:0048638,regulation of developmental growth,0,0,1,1,0
+GO:0014013,regulation of gliogenesis,0,0,1,1,0
+GO:0050974,detection of mechanical stimulus involved in sensory perception,0,0,1,0,0
+GO:0010975,regulation of neuron projection development,0,0,1,1,0
+GO:0021761,limbic system development,0,0,1,0,0
+GO:0001503,ossification,0,0,1,0,0
+GO:0060537,muscle tissue development,0,0,1,0,0
+GO:0043269,regulation of monoatomic ion transport,0,0,1,1,0
+GO:0006898,receptor-mediated endocytosis,0,0,1,1,0
+GO:0007423,sensory organ development,0,0,1,0,0
+GO:0051336,regulation of hydrolase activity,0,0,1,1,0
+GO:0097066,response to thyroid hormone,0,0,1,0,0
+GO:0098742,cell-cell adhesion via plasma-membrane adhesion molecules,0,0,1,1,0
+GO:0003002,regionalization,0,0,1,0,0
+GO:0001890,placenta development,0,0,1,0,0
+GO:0071674,mononuclear cell migration,0,0,1,1,0
+GO:0035265,organ growth,0,0,1,1,0
+GO:0002040,sprouting angiogenesis,0,0,1,1,0
+GO:0002009,morphogenesis of an epithelium,0,0,1,0,0
+GO:0034110,regulation of homotypic cell-cell adhesion,0,0,1,0,0
+GO:0048732,gland development,0,0,1,0,0
+GO:0120035,regulation of plasma membrane bounded cell projection organization,0,0,1,1,0
+GO:0001657,ureteric bud development,0,0,1,0,0
+GO:0007156,homophilic cell adhesion via plasma membrane adhesion molecules,0,0,1,1,0
+GO:0043525,positive regulation of neuron apoptotic process,0,0,1,0,0
+GO:0072080,nephron tubule development,0,0,1,0,0
+GO:0072163,mesonephric epithelium development,0,0,1,0,0
+GO:0072164,mesonephric tubule development,0,0,1,0,0
+GO:0010922,positive regulation of phosphatase activity,0,0,1,0,0
+GO:0002250,adaptive immune response,0,0,0,1,0
+GO:0002399,MHC class II protein complex assembly,0,0,0,1,0
+GO:0002503,peptide antigen assembly with MHC class II protein complex,0,0,0,1,0
+GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,0,0,0,1,0
+GO:0046651,lymphocyte proliferation,0,0,0,1,0
+GO:0032943,mononuclear cell proliferation,0,0,0,1,0
+GO:0002495,antigen processing and presentation of peptide antigen via MHC class II,0,0,0,1,0
+GO:0009615,response to virus,0,0,0,1,0
+GO:0007159,leukocyte cell-cell adhesion,0,0,0,1,0
+GO:0050778,positive regulation of immune response,0,0,0,1,0
+GO:0002504,antigen processing and presentation of peptide or polysaccharide antigen via MHC class II,0,0,0,1,0
+GO:0032609,type II interferon production,0,0,0,1,0
+GO:0032649,regulation of type II interferon production,0,0,0,1,0
+GO:0070555,response to interleukin-1,0,0,0,1,0
+GO:1903037,regulation of leukocyte cell-cell adhesion,0,0,0,1,0
+GO:0022407,regulation of cell-cell adhesion,0,0,0,1,0
+GO:0042129,regulation of T cell proliferation,0,0,0,1,0
+GO:0050866,negative regulation of cell activation,0,0,0,1,0
+GO:0002695,negative regulation of leukocyte activation,0,0,0,1,0
+GO:0002396,MHC protein complex assembly,0,0,0,1,0
+GO:0002501,peptide antigen assembly with MHC protein complex,0,0,0,1,0
+GO:0002478,antigen processing and presentation of exogenous peptide antigen,0,0,0,1,0
+GO:0051345,positive regulation of hydrolase activity,0,0,0,1,0
+GO:0022409,positive regulation of cell-cell adhesion,0,0,0,1,0
+GO:0071347,cellular response to interleukin-1,0,0,0,1,0
+GO:0051607,defense response to virus,0,0,0,1,0
+GO:0140546,defense response to symbiont,0,0,0,1,0
+GO:0019884,antigen processing and presentation of exogenous antigen,0,0,0,1,0
+GO:0042098,T cell proliferation,0,0,0,1,0
+GO:0007162,negative regulation of cell adhesion,0,0,0,1,0
+GO:0042102,positive regulation of T cell proliferation,0,0,0,1,0
+GO:0032729,positive regulation of type II interferon production,0,0,0,1,0
+GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,0,0,0,1,0
+GO:0001818,negative regulation of cytokine production,0,0,0,1,0
+GO:0050870,positive regulation of T cell activation,0,0,0,1,0
+GO:1903039,positive regulation of leukocyte cell-cell adhesion,0,0,0,1,0
+GO:0045071,negative regulation of viral genome replication,0,0,0,1,0
+GO:0007189,adenylate cyclase-activating G protein-coupled receptor signaling pathway,0,0,0,1,0
+GO:0048002,antigen processing and presentation of peptide antigen,0,0,0,1,0
+GO:0051250,negative regulation of lymphocyte activation,0,0,0,1,0
+GO:0002367,cytokine production involved in immune response,0,0,0,1,0
+GO:0002718,regulation of cytokine production involved in immune response,0,0,0,1,0
+GO:0071706,tumor necrosis factor superfamily cytokine production,0,0,0,1,0
+GO:1903555,regulation of tumor necrosis factor superfamily cytokine production,0,0,0,1,0
+GO:0046631,alpha-beta T cell activation,0,0,0,1,0
+GO:0071624,positive regulation of granulocyte chemotaxis,0,0,0,1,0
+GO:0090023,positive regulation of neutrophil chemotaxis,0,0,0,1,0
+GO:0002706,regulation of lymphocyte mediated immunity,0,0,0,1,0
+GO:0043087,regulation of GTPase activity,0,0,0,1,0
+GO:0002821,positive regulation of adaptive immune response,0,0,0,1,0
+GO:1902624,positive regulation of neutrophil migration,0,0,0,1,0
+GO:0043547,positive regulation of GTPase activity,0,0,0,1,0
+GO:0002819,regulation of adaptive immune response,0,0,0,1,0
+GO:0002827,positive regulation of T-helper 1 type immune response,0,0,0,1,0
+GO:0019882,antigen processing and presentation,0,0,0,1,0
+GO:0032640,tumor necrosis factor production,0,0,0,1,0
+GO:0032680,regulation of tumor necrosis factor production,0,0,0,1,0
+GO:0042742,defense response to bacterium,0,0,0,1,0
+GO:0002709,regulation of T cell mediated immunity,0,0,0,1,0
+GO:0002824,positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,0,0,0,1,0
+GO:0002700,regulation of production of molecular mediator of immune response,0,0,0,1,0
+GO:0002683,negative regulation of immune system process,0,0,0,1,0
+GO:0002286,T cell activation involved in immune response,0,0,0,1,0
+GO:0050868,negative regulation of T cell activation,0,0,0,1,0
+GO:0002825,regulation of T-helper 1 type immune response,0,0,0,1,0
+GO:0002687,positive regulation of leukocyte migration,0,0,0,1,0
+GO:0002822,regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,0,0,0,1,0
+GO:0019058,viral life cycle,0,0,0,1,0
+GO:1903670,regulation of sprouting angiogenesis,0,0,0,1,0
+GO:0002834,regulation of response to tumor cell,0,0,0,1,0
+GO:0002837,regulation of immune response to tumor cell,0,0,0,1,0
+GO:0002708,positive regulation of lymphocyte mediated immunity,0,0,0,1,0
+GO:0002468,dendritic cell antigen processing and presentation,0,0,0,1,0
+GO:0043380,regulation of memory T cell differentiation,0,0,0,1,0
+GO:0002711,positive regulation of T cell mediated immunity,0,0,0,1,0
+GO:0006821,chloride transport,0,0,0,1,0
+GO:0042088,T-helper 1 type immune response,0,0,0,1,0
+GO:0006816,calcium ion transport,0,0,0,1,0
+GO:0002720,positive regulation of cytokine production involved in immune response,0,0,0,1,0
+GO:1903038,negative regulation of leukocyte cell-cell adhesion,0,0,0,1,0
+GO:0090022,regulation of neutrophil chemotaxis,0,0,0,1,0
+GO:0045598,regulation of fat cell differentiation,0,0,0,1,0
+GO:0032735,positive regulation of interleukin-12 production,0,0,0,1,0
+GO:0045069,regulation of viral genome replication,0,0,0,1,0
+GO:0043379,memory T cell differentiation,0,0,0,1,0
+GO:1902105,regulation of leukocyte differentiation,0,0,0,1,0
+GO:0010721,negative regulation of cell development,0,0,0,1,0
+GO:0007229,integrin-mediated signaling pathway,0,0,0,1,0
+GO:0033002,muscle cell proliferation,0,0,0,1,0
+GO:0034330,cell junction organization,0,0,0,1,0
+GO:1902622,regulation of neutrophil migration,0,0,0,1,0
+GO:0051960,regulation of nervous system development,0,0,0,1,0
+GO:0001916,positive regulation of T cell mediated cytotoxicity,0,0,0,1,0
+GO:0036037,"CD8-positive, alpha-beta T cell activation",0,0,0,1,0
+GO:0035710,"CD4-positive, alpha-beta T cell activation",0,0,0,1,0
+GO:0002456,T cell mediated immunity,0,0,0,1,0
+GO:0002698,negative regulation of immune effector process,0,0,0,1,0
+GO:0045619,regulation of lymphocyte differentiation,0,0,0,1,0
+GO:0090715,immunological memory formation process,0,0,0,1,0
+GO:0032760,positive regulation of tumor necrosis factor production,0,0,0,1,0
+GO:0001914,regulation of T cell mediated cytotoxicity,0,0,0,1,0
+GO:0045765,regulation of angiogenesis,0,0,0,1,0
+GO:0072676,lymphocyte migration,0,0,0,1,0
+GO:0022408,negative regulation of cell-cell adhesion,0,0,0,1,0
+GO:0048525,negative regulation of viral process,0,0,0,1,0
+GO:0019079,viral genome replication,0,0,0,1,0
+GO:1901342,regulation of vasculature development,0,0,0,1,0
+GO:0021952,central nervous system projection neuron axonogenesis,0,0,0,1,0
+GO:0034329,cell junction assembly,0,0,0,1,0
+GO:0007188,adenylate cyclase-modulating G protein-coupled receptor signaling pathway,0,0,0,1,0
+GO:1903557,positive regulation of tumor necrosis factor superfamily cytokine production,0,0,0,1,0
+GO:0045580,regulation of T cell differentiation,0,0,0,1,0
+GO:0032945,negative regulation of mononuclear cell proliferation,0,0,0,1,0
+GO:0050672,negative regulation of lymphocyte proliferation,0,0,0,1,0
+GO:0046456,icosanoid biosynthetic process,0,0,0,1,0
+GO:0050806,positive regulation of synaptic transmission,0,0,0,1,0
+GO:0002702,positive regulation of production of molecular mediator of immune response,0,0,0,1,0
+GO:0006690,icosanoid metabolic process,0,0,0,1,0
+GO:0032615,interleukin-12 production,0,0,0,1,0
+GO:0032655,regulation of interleukin-12 production,0,0,0,1,0
+GO:0002418,immune response to tumor cell,0,0,0,1,0
+GO:0031349,positive regulation of defense response,0,0,0,1,0
+GO:0002833,positive regulation of response to biotic stimulus,0,0,0,1,0
+GO:0021955,central nervous system neuron axonogenesis,0,0,0,1,0
+GO:0050767,regulation of neurogenesis,0,0,0,1,0
+GO:0034341,response to type II interferon,0,0,0,1,0
+GO:2000177,regulation of neural precursor cell proliferation,0,0,0,1,0
+GO:1903900,regulation of viral life cycle,0,0,0,1,0
+GO:0035640,exploration behavior,0,0,0,1,0
+GO:0031346,positive regulation of cell projection organization,0,0,0,1,0
+GO:0015914,phospholipid transport,0,0,0,1,0
+GO:0043270,positive regulation of monoatomic ion transport,0,0,0,1,0
+GO:0071622,regulation of granulocyte chemotaxis,0,0,0,1,0
+GO:0043367,"CD4-positive, alpha-beta T cell differentiation",0,0,0,1,0
+GO:0034612,response to tumor necrosis factor,0,0,0,1,0
+GO:0090713,immunological memory process,0,0,0,1,0
+GO:0002828,regulation of type 2 immune response,0,0,0,1,0
+GO:0090382,phagosome maturation,0,0,0,1,0
+GO:0070664,negative regulation of leukocyte proliferation,0,0,0,1,0
+GO:0002292,T cell differentiation involved in immune response,0,0,0,1,0
+GO:0032613,interleukin-10 production,0,0,0,1,0
+GO:0032653,regulation of interleukin-10 production,0,0,0,1,0
+GO:0010562,positive regulation of phosphorus metabolic process,0,0,0,1,0
+GO:0045937,positive regulation of phosphate metabolic process,0,0,0,1,0
+GO:0051924,regulation of calcium ion transport,0,0,0,1,0
+GO:0002831,regulation of response to biotic stimulus,0,0,0,1,0
+GO:0046632,alpha-beta T cell differentiation,0,0,0,1,0
+GO:0016032,viral process,0,0,0,1,0
+GO:0002347,response to tumor cell,0,0,0,1,0
+GO:2000108,positive regulation of leukocyte apoptotic process,0,0,0,1,0
+GO:0001913,T cell mediated cytotoxicity,0,0,0,1,0
+GO:0048535,lymph node development,0,0,0,1,0
+GO:0060907,positive regulation of macrophage cytokine production,0,0,0,1,0
+GO:0050727,regulation of inflammatory response,0,0,0,1,0
+GO:0003094,glomerular filtration,0,0,0,1,0
+GO:0021983,pituitary gland development,0,0,0,1,0
+GO:0035743,"CD4-positive, alpha-beta T cell cytokine production",0,0,0,1,0
+GO:0045620,negative regulation of lymphocyte differentiation,0,0,0,1,0
+GO:0048247,lymphocyte chemotaxis,0,0,0,1,0
+GO:0071356,cellular response to tumor necrosis factor,0,0,0,1,0
+GO:0002764,immune response-regulating signaling pathway,0,0,0,1,0
+GO:0048709,oligodendrocyte differentiation,0,0,0,1,0
+GO:0050777,negative regulation of immune response,0,0,0,1,0
+GO:2001185,"regulation of CD8-positive, alpha-beta T cell activation",0,0,0,1,0
+GO:0046006,regulation of activated T cell proliferation,0,0,0,1,0
+GO:0007498,mesoderm development,0,0,0,1,0
+GO:0002369,T cell cytokine production,0,0,0,1,0
+GO:0002724,regulation of T cell cytokine production,0,0,0,1,0
+GO:0010934,macrophage cytokine production,0,0,0,1,0
+GO:0010935,regulation of macrophage cytokine production,0,0,0,1,0
+GO:0061081,positive regulation of myeloid leukocyte cytokine production involved in immune response,0,0,0,1,0
+GO:2000179,positive regulation of neural precursor cell proliferation,0,0,0,1,0
+GO:0010720,positive regulation of cell development,0,0,0,1,0
+GO:0055017,cardiac muscle tissue growth,0,0,0,1,0
+GO:0060291,long-term synaptic potentiation,0,0,0,1,0
+GO:0071219,cellular response to molecule of bacterial origin,0,0,0,1,0
+GO:0002768,immune response-regulating cell surface receptor signaling pathway,0,0,0,1,0
+GO:0097205,renal filtration,0,0,0,1,0
+GO:0006820,monoatomic anion transport,0,0,0,1,0
+GO:0042116,macrophage activation,0,0,0,1,0
+GO:0007218,neuropeptide signaling pathway,0,0,0,1,0
+GO:0031529,ruffle organization,0,0,0,1,0
+GO:0061351,neural precursor cell proliferation,0,0,0,1,0
+GO:0048738,cardiac muscle tissue development,0,0,0,1,0
+GO:0007631,feeding behavior,0,0,0,1,0
+GO:0014009,glial cell proliferation,0,0,0,1,0
+GO:0097120,receptor localization to synapse,0,0,0,1,0
+GO:0051384,response to glucocorticoid,0,0,0,1,0
+GO:0042130,negative regulation of T cell proliferation,0,0,0,1,0
+GO:0048708,astrocyte differentiation,0,0,0,1,0
+GO:0150076,neuroinflammatory response,0,0,0,1,0
+GO:0062237,protein localization to postsynapse,0,0,0,1,0
+GO:0097028,dendritic cell differentiation,0,0,0,1,0
+GO:1903539,protein localization to postsynaptic membrane,0,0,0,1,0
+GO:0019233,sensory perception of pain,0,0,0,1,0
+GO:0042531,positive regulation of tyrosine phosphorylation of STAT protein,0,0,0,1,0
+GO:0050798,activated T cell proliferation,0,0,0,1,0
+GO:0061082,myeloid leukocyte cytokine production,0,0,0,1,0
+GO:0006925,inflammatory cell apoptotic process,0,0,0,1,0
+GO:0030001,metal ion transport,0,0,0,1,0
+GO:0002281,macrophage activation involved in immune response,0,0,0,1,0
+GO:0006691,leukotriene metabolic process,0,0,0,1,0
+GO:0032693,negative regulation of interleukin-10 production,0,0,0,1,0
+GO:0044070,regulation of monoatomic anion transport,0,0,0,1,0
+GO:0003018,vascular process in circulatory system,0,0,0,1,0
+GO:0046634,regulation of alpha-beta T cell activation,0,0,0,1,0
+GO:0003013,circulatory system process,0,0,0,1,0
+GO:0032612,interleukin-1 production,0,0,0,1,0
+GO:0032652,regulation of interleukin-1 production,0,0,0,1,0
+GO:0008217,regulation of blood pressure,0,0,0,1,0
+GO:1904705,regulation of vascular associated smooth muscle cell proliferation,0,0,0,1,0
+GO:0003229,ventricular cardiac muscle tissue development,0,0,0,1,0
+GO:0042092,type 2 immune response,0,0,0,1,0
+GO:0045778,positive regulation of ossification,0,0,0,1,0
+GO:0070169,positive regulation of biomineral tissue development,0,0,0,1,0
+GO:0070269,pyroptosis,0,0,0,1,0
+GO:0010976,positive regulation of neuron projection development,0,0,0,1,0
+GO:0071222,cellular response to lipopolysaccharide,0,0,0,1,0
+GO:0035418,protein localization to synapse,0,0,0,1,0
+GO:0060419,heart growth,0,0,0,1,0
+GO:1902893,regulation of miRNA transcription,0,0,0,1,0
+GO:0031099,regeneration,0,0,0,1,0
+GO:0048660,regulation of smooth muscle cell proliferation,0,0,0,1,0
+GO:2000146,negative regulation of cell motility,0,0,0,1,0
+GO:0050792,regulation of viral process,0,0,0,1,0
+GO:1902106,negative regulation of leukocyte differentiation,0,0,0,1,0
+GO:0002429,immune response-activating cell surface receptor signaling pathway,0,0,0,1,0
+GO:0007043,cell-cell junction assembly,0,0,0,1,0
+GO:0015698,inorganic anion transport,0,0,0,1,0
+GO:0044092,negative regulation of molecular function,0,0,0,1,0
+GO:0031589,cell-substrate adhesion,0,0,0,1,0
+GO:0061614,miRNA transcription,0,0,0,1,0
+GO:0031102,neuron projection regeneration,0,0,0,1,0
+GO:0002577,regulation of antigen processing and presentation,0,0,0,1,0
+GO:0007259,receptor signaling pathway via JAK-STAT,0,0,0,1,0
+GO:0040013,negative regulation of locomotion,0,0,0,1,0
+GO:0042093,T-helper cell differentiation,0,0,0,1,0
+GO:0021700,developmental maturation,0,0,0,1,0
+GO:0014015,positive regulation of gliogenesis,0,0,0,1,0
+GO:1990874,vascular associated smooth muscle cell proliferation,0,0,0,1,0
+GO:0019226,transmission of nerve impulse,0,0,0,1,0
+GO:0042104,positive regulation of activated T cell proliferation,0,0,0,1,0
+GO:0046621,negative regulation of organ growth,0,0,0,1,0
+GO:0032623,interleukin-2 production,0,0,0,1,0
+GO:0032663,regulation of interleukin-2 production,0,0,0,1,0
+GO:0046620,regulation of organ growth,0,0,0,1,0
+GO:0002573,myeloid leukocyte differentiation,0,0,0,1,0
+GO:0030336,negative regulation of cell migration,0,0,0,1,0
+GO:0048659,smooth muscle cell proliferation,0,0,0,1,0
+GO:1903707,negative regulation of hemopoiesis,0,0,0,1,0
+GO:2000106,regulation of leukocyte apoptotic process,0,0,0,1,0
+GO:0045581,negative regulation of T cell differentiation,0,0,0,1,0
+GO:0030178,negative regulation of Wnt signaling pathway,0,0,0,1,0
+GO:1901699,cellular response to nitrogen compound,0,0,0,0,1
+GO:0071417,cellular response to organonitrogen compound,0,0,0,0,1

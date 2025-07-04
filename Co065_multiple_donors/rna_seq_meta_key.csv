@@ -1,0 +1,72 @@
+sample,Experiment ID,Experimental Day Collected,Donor,Cas,Target,sgRNA notes
+sample_205,Co065,7,Donor 1,CRISPRoff,FAS,Guide 1
+sample_206,Co065,7,Donor 1,CRISPRoff,PTPN2,Guide 6
+sample_207,Co065,7,Donor 1,CRISPRoff,RC3H1,Guide 2
+sample_208,Co065,7,Donor 1,CRISPRoff,SUV39H1,Guide 2
+sample_209,Co065,7,Donor 1,CRISPRoff,RASA2,"Guides 1,2,4"
+sample_210,Co065,7,Donor 1,CRISPRoff,MED12,"Guides 1,2,3"
+sample_211,Co065,7,Donor 1,CRISPRoff,AAVS1,gJ 35
+sample_212,Co065,7,Donor 1,CRISPRoff,AAVS1,gJ 36
+sample_213,Co065,7,Donor 1,Cas9,FAS,g1
+sample_214,Co065,7,Donor 1,Cas9,PTPN2,g1
+sample_215,Co065,7,Donor 1,Cas9,RC3H1,g1
+sample_216,Co065,7,Donor 1,Cas9,SUV39H1,g2
+sample_217,Co065,7,Donor 1,Cas9,RASA2,KO
+sample_218,Co065,7,Donor 1,Cas9,MED12,Maya KO (darhmacon)\
+sample_219,Co065,7,Donor 1,Cas9,AAVS1,gJ 35
+sample_220,Co065,7,Donor 1,Cas9,AAVS1,gJ 36
+sample_221,Co065,7,Donor 2,CRISPRoff,FAS,Guide 1
+sample_222,Co065,7,Donor 2,CRISPRoff,PTPN2,Guide 6
+sample_223,Co065,7,Donor 2,CRISPRoff,RC3H1,Guide 2
+sample_224,Co065,7,Donor 2,CRISPRoff,SUV39H1,Guide 2
+sample_225,Co065,7,Donor 2,CRISPRoff,RASA2,"Guides 1,2,4"
+sample_226,Co065,7,Donor 2,CRISPRoff,MED12,"Guides 1,2,3"
+sample_227,Co065,7,Donor 2,CRISPRoff,AAVS1,gJ 35
+sample_228,Co065,7,Donor 2,CRISPRoff,AAVS1,gJ 36
+sample_229,Co065,7,Donor 2,Cas9,FAS,g1
+sample_230,Co065,7,Donor 2,Cas9,PTPN2,g1
+sample_231,Co065,7,Donor 2,Cas9,RC3H1,g1
+sample_232,Co065,7,Donor 2,Cas9,SUV39H1,g2
+sample_233,Co065,7,Donor 2,Cas9,RASA2,KO
+sample_234,Co065,7,Donor 2,Cas9,MED12,Maya KO (darhmacon)\
+sample_235,Co065,7,Donor 2,Cas9,AAVS1,gJ 35
+sample_236,Co065,7,Donor 2,Cas9,AAVS1,gJ 36
+sample_237,Co066,7,Donor 1,CRISPRoff,NTC,
+sample_243,Co066,7,Donor 1,CRISPRoff,"FAS, SUV39H1, RC3H1",
+sample_244,Co066,7,Donor 1,CRISPRoff,"FAS, SUV39H1, RC3H1, MED12",
+sample_245,Co066,7,Donor 1,CRISPRoff,"FAS, SUV39H1, RC3H1, MED12, RASA2",
+sample_251,Co066,7,Donor 2,CRISPRoff,NTC,
+sample_257,Co066,7,Donor 2,CRISPRoff,"FAS, SUV39H1, RC3H1",
+sample_258,Co066,7,Donor 2,CRISPRoff,"FAS, SUV39H1, RC3H1, MED12",
+sample_259,Co066,7,Donor 2,CRISPRoff,"FAS, SUV39H1, RC3H1, MED12, RASA2",
+sample_265,Co065,7,Donor 3,CRISPRoff,FAS,Guide 1
+sample_266,Co065,7,Donor 3,CRISPRoff,PTPN2,Guide 6
+sample_267,Co065,7,Donor 3,CRISPRoff,RC3H1,Guide 2
+sample_268,Co065,7,Donor 3,CRISPRoff,SUV39H1,Guide 2
+sample_269,Co065,7,Donor 3,CRISPRoff,RASA2,"Guides 1,2,4"
+sample_270,Co065,7,Donor 3,CRISPRoff,MED12,"Guides 1,2,3"
+sample_271,Co065,7,Donor 3,CRISPRoff,AAVS1,gJ 35
+sample_272,Co065,7,Donor 3,CRISPRoff,AAVS1,gJ 36
+sample_273,Co065,7,Donor 3,Cas9,FAS,g1
+sample_274,Co065,7,Donor 3,Cas9,PTPN2,g1
+sample_275,Co065,7,Donor 3,Cas9,RC3H1,g1
+sample_276,Co065,7,Donor 3,Cas9,SUV39H1,g2
+sample_277,Co065,7,Donor 3,Cas9,RASA2,KO
+sample_278,Co065,7,Donor 3,Cas9,MED12,Maya KO (darhmacon)\
+sample_279,Co065,7,Donor 3,Cas9,AAVS1,gJ 35
+sample_280,Co065,7,Donor 3,Cas9,AAVS1,gJ 36
+sample_281,Co065,7,Donor 4,CRISPRoff,FAS,Guide 1
+sample_282,Co065,7,Donor 4,CRISPRoff,PTPN2,Guide 6
+sample_283,Co065,7,Donor 4,CRISPRoff,RC3H1,Guide 2
+sample_284,Co065,7,Donor 4,CRISPRoff,SUV39H1,Guide 2
+sample_285,Co065,7,Donor 4,CRISPRoff,RASA2,"Guides 1,2,4"
+sample_286,Co065,7,Donor 4,CRISPRoff,MED12,"Guides 1,2,3"
+sample_287,Co065,7,Donor 4,CRISPRoff,AAVS1,gJ 35
+sample_288,Co065,7,Donor 4,CRISPRoff,AAVS1,gJ 36
+sample_289,Co065,7,Donor 4,Cas9,FAS,g1
+sample_291,Co065,7,Donor 4,Cas9,RC3H1,g1
+sample_292,Co065,7,Donor 4,Cas9,SUV39H1,g2
+sample_293,Co065,7,Donor 4,Cas9,RASA2,KO
+sample_294,Co065,7,Donor 4,Cas9,MED12,Maya KO (darhmacon)
+sample_295,Co065,7,Donor 4,Cas9,AAVS1,gJ 35
+sample_296,Co065,7,Donor 4,Cas9,AAVS1,gJ 36

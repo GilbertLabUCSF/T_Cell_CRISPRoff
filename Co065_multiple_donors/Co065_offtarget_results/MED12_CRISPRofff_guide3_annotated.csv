@@ -1,0 +1,7 @@
+target_file,locus,gene_symbol,entrez_id,mismatch,gene_type,analysis_type,distance
+MED12_CRISPRofff_guide3,chrX:+71118951,MED12,9968,N/A,Promoter,offtarget,NA
+MED12_CRISPRofff_guide3,chr6:-160386179,LOC124901453,124901453,54,Promoter,offtarget,NA
+MED12_CRISPRofff_guide3,chrX:+71118951,MED12,NA,0,proximal_gene,proximal,0
+MED12_CRISPRofff_guide3,chrX:+71118951,FOXO4,NA,15418,proximal_gene,proximal,15418
+MED12_CRISPRofff_guide3,chrX:+71118951,NLGN3,NA,25869,proximal_gene,proximal,25869
+MED12_CRISPRofff_guide3,chrX:+71118951,GJB1,NA,93859,proximal_gene,proximal,93859

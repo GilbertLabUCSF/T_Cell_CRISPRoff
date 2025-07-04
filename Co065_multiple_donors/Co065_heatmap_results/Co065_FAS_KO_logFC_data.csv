@@ -1,0 +1,13 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+FBXO41,0.08727983576752907,FALSE,offtarget,Gene
+CYP2U1,0.06785714546614519,FALSE,offtarget,Gene
+LOC101929614,0,FALSE,offtarget,Gene
+PIK3R3,0.12412094171516608,FALSE,offtarget,Gene
+BCL2L15,0.2368580102629561,FALSE,offtarget,Gene
+TNS3,0,FALSE,offtarget,Gene
+MICU3,0.832044576806184,FALSE,offtarget,Gene
+ACHE,0,FALSE,offtarget,Gene
+FAS,-0.25734621442477046,FALSE,both,Target
+FAS-AS1,0,FALSE,proximal,proximal_gene
+ACTA2,-0.2950294534277911,FALSE,proximal,proximal_gene
+MIR4679-2,0,FALSE,proximal,proximal_gene

@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Gene,3,PTPN2_KO,PTPN2
+both,Target,1,PTPN2_KO,PTPN2
+proximal,proximal_gene,1,PTPN2_KO,PTPN2

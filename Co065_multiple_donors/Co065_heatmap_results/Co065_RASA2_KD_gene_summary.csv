@@ -1,0 +1,4 @@
+analysis_type,gene_type,n,guide_name,target_gene
+offtarget,Promoter,72,RASA2_KD,RASA2
+both,Promoter,1,RASA2_KD,RASA2
+proximal,proximal_gene,1,RASA2_KD,RASA2

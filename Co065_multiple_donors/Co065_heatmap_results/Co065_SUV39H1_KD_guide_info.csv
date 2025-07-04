@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+SUV39H1_KD,SUV39H1,KD,"SUV39H1_CRISPRoff_guide2, SUV39H1_CRISPRoff_guide3",9,0,4,4,1

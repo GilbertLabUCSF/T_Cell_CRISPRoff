@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+FAS_KD,FAS,KD,"FAS_CRISPRoff_guide1, FAS_CRISPRoff_guide2, FAS_CRISPRoff_guide3",11,1,7,2,1

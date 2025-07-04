@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+PTPN2_KO,PTPN2,KO,PTPN2_KO_g1,5,0,3,1,1

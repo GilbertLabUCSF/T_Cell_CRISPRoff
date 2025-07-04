@@ -1,0 +1,11 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+FGF10,0,FALSE,offtarget,Promoter
+LPAR5,0.09974636993596642,FALSE,offtarget,Promoter
+LOC400627,0.02220751312876956,FALSE,offtarget,Promoter
+NR6A1,0,FALSE,offtarget,Promoter
+MED4,0.02779258996645595,FALSE,offtarget,Promoter
+LOC101927855,0,FALSE,offtarget,Promoter
+DNAAF9,0.16902910046447506,FALSE,offtarget,Promoter
+LINC02704,0,FALSE,offtarget,Promoter
+RC3H1,-3.1402411127753234,TRUE,both,Promoter
+RABGAP1L-DT,0,FALSE,proximal,proximal_gene

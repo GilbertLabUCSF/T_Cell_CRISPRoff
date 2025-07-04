@@ -1,0 +1,2 @@
+guide_name,target_gene,guide_type,offtarget_files,total_genes,target_genes,offtarget_genes,proximal_genes,both_genes
+RASA2_KD,RASA2,KD,"RASA2_CRISPRoff_guide1, RASA2_CRISPRoff_guide2, RASA2_CRISPRoff_guide4",74,0,72,1,1

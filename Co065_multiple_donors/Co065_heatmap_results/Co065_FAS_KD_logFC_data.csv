@@ -1,0 +1,12 @@
+gene_symbol,logFC,significance,analysis_type,gene_type
+FAS,-3.26561454812792,TRUE,target,Target
+SMURF1,0.09828897582460416,FALSE,offtarget,Promoter
+CTR9,0.12870816401596752,FALSE,offtarget,Promoter
+RHPN2,0,FALSE,offtarget,Promoter
+GJA4,0,FALSE,offtarget,Promoter
+LOC100132249,0.3427366663916551,FALSE,offtarget,Promoter
+SRR,0.2093092742098155,FALSE,offtarget,Promoter
+LOC124902681,0,FALSE,offtarget,Promoter
+ACTA2,-1.6098222096729171,FALSE,both,Promoter
+FAS-AS1,0,FALSE,proximal,proximal_gene
+MIR4679-2,0,FALSE,proximal,proximal_gene
