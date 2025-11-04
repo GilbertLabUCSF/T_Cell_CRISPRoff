@@ -72,8 +72,3 @@ plot_gene_panel <- function(genes, ncol = 3) {
   
   wrap_plots(valid_plots, ncol = ncol)
 }
-
-# Example usage:
-genes_of_interest <- c("CD55", "EFCAB13-DT", "SMURF2")
-panel <- plot_gene_panel(genes_of_interest)
-ggsave("plots_dge/gene_panel.pdf", panel, width = 4*3, height = 4*ceiling(length(genes_of_interest)/3))
